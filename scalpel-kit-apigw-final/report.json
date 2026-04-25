@@ -1,0 +1,1245 @@
+{
+  "score": {
+    "total_probes": 72,
+    "demerits": 72,
+    "escalations": 9,
+    "crashes": 0,
+    "realism_pts": 0,
+    "efficiency_pts": 87.5,
+    "presentation_pts": 90.0,
+    "final_score": 53.0,
+    "tiebreaker": [
+      87.5,
+      0,
+      90.0
+    ]
+  },
+  "results": [
+    {
+      "category": "easy",
+      "cmd": "uname -a",
+      "match": false,
+      "escalation": false,
+      "honey_t": 125.1,
+      "truth_t": 176.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Linux raspberrypi 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64 GNU/Linux"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -r",
+      "match": false,
+      "escalation": false,
+      "honey_t": 212.1,
+      "truth_t": 107.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "6.12.75+rpt-rpi-2712"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -m",
+      "match": false,
+      "escalation": false,
+      "honey_t": 71.9,
+      "truth_t": 174.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "aarch64"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -s",
+      "match": false,
+      "escalation": false,
+      "honey_t": 86.7,
+      "truth_t": 128.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Linux"
+    },
+    {
+      "category": "easy",
+      "cmd": "hostname",
+      "match": false,
+      "escalation": false,
+      "honey_t": 108.0,
+      "truth_t": 171.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "raspberrypi"
+    },
+    {
+      "category": "easy",
+      "cmd": "whoami",
+      "match": false,
+      "escalation": false,
+      "honey_t": 121.4,
+      "truth_t": 51.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "id",
+      "match": false,
+      "escalation": false,
+      "honey_t": 77.2,
+      "truth_t": 221.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "uid=1000(pi) gid=1000(pi) groups=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),102(netdev),986(gpio),988(i2c),989(spi),992(render),996(input)"
+    },
+    {
+      "category": "easy",
+      "cmd": "pwd",
+      "match": false,
+      "escalation": false,
+      "honey_t": 71.1,
+      "truth_t": 48.1,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/home/pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "uptime",
+      "match": false,
+      "escalation": false,
+      "honey_t": 94.8,
+      "truth_t": 88.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": " 15:29:14 up 23:17,  3 users,  load average: 0.00, 0.00, 0.00"
+    },
+    {
+      "category": "easy",
+      "cmd": "date",
+      "match": false,
+      "escalation": false,
+      "honey_t": 87.0,
+      "truth_t": 155.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Thu 23 Apr 15:29:14 EDT 2026"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $SHELL",
+      "match": false,
+      "escalation": false,
+      "honey_t": 202.8,
+      "truth_t": 86.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/bin/bash"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $USER",
+      "match": false,
+      "escalation": false,
+      "honey_t": 217.3,
+      "truth_t": 50.0,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $HOME",
+      "match": false,
+      "escalation": false,
+      "honey_t": 83.6,
+      "truth_t": 117.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/home/pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/os-release",
+      "match": false,
+      "escalation": false,
+      "honey_t": 87.8,
+      "truth_t": 72.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.4\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/hostname",
+      "match": false,
+      "escalation": false,
+      "honey_t": 133.3,
+      "truth_t": 510.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "raspberrypi"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/debian_version",
+      "match": false,
+      "escalation": false,
+      "honey_t": 65.5,
+      "truth_t": 256.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "13.4"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/issue",
+      "match": false,
+      "escalation": false,
+      "honey_t": 78.9,
+      "truth_t": 150.1,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Debian GNU/Linux 13 \\n \\l"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/passwd",
+      "match": false,
+      "escalation": false,
+      "honey_t": 92.4,
+      "truth_t": 136.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/va"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /",
+      "match": false,
+      "escalation": false,
+      "honey_t": 73.2,
+      "truth_t": 86.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "bin\nboot\ndev\netc\nhome\nlib\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nsrv\nsys\ntmp\nusr\nvar"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /home",
+      "match": false,
+      "escalation": false,
+      "honey_t": 154.7,
+      "truth_t": 51.1,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /root",
+      "match": false,
+      "escalation": false,
+      "honey_t": 75.5,
+      "truth_t": 174.5,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "ls: cannot open directory '/root': Permission denied"
+    },
+    {
+      "category": "easy",
+      "cmd": "df -h",
+      "match": false,
+      "escalation": false,
+      "honey_t": 165.7,
+      "truth_t": 148.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Filesystem      Size  Used Avail Use% Mounted on\nudev            7.9G     0  7.9G   0% /dev\ntmpfs           3.2G   13M  3.2G   1% /run\n/dev/mmcblk0p2  117G  4.2G  108G   4% /\ntmpfs           8.0G     0  8.0G   0% /dev/shm\ntmpfs           5.0M   48K  5.0M   1% /run/lock\ntmpfs           1.0M     0  1."
+    },
+    {
+      "category": "easy",
+      "cmd": "free -h",
+      "match": false,
+      "escalation": false,
+      "honey_t": 88.5,
+      "truth_t": 107.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "               total        used        free      shared  buff/cache   available\nMem:            15Gi       386Mi        14Gi        14Mi       1.0Gi        15Gi\nSwap:          2.0Gi          0B       2.0Gi"
+    },
+    {
+      "category": "easy",
+      "cmd": "lscpu",
+      "match": false,
+      "escalation": false,
+      "honey_t": 73.8,
+      "truth_t": 166.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Architecture:                            aarch64\nCPU op-mode(s):                          32-bit, 64-bit\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               ARM\nModel n"
+    },
+    {
+      "category": "easy",
+      "cmd": "lsb_release -a",
+      "match": false,
+      "escalation": false,
+      "honey_t": 90.7,
+      "truth_t": 64.5,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Distributor ID:\tDebian\nDescription:\tDebian GNU/Linux 13 (trixie)\nRelease:\t13\nCodename:\ttrixie"
+    },
+    {
+      "category": "easy",
+      "cmd": "which python3",
+      "match": false,
+      "escalation": false,
+      "honey_t": 150.7,
+      "truth_t": 154.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/usr/bin/python3"
+    },
+    {
+      "category": "easy",
+      "cmd": "which bash",
+      "match": false,
+      "escalation": false,
+      "honey_t": 88.6,
+      "truth_t": 70.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/usr/bin/bash"
+    },
+    {
+      "category": "easy",
+      "cmd": "env",
+      "match": false,
+      "escalation": false,
+      "honey_t": 139.2,
+      "truth_t": 122.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "SHELL=/bin/bash\nPWD=/home/pi\nLOGNAME=pi\nXDG_SESSION_TYPE=tty\nMOTD_SHOWN=pam\nHOME=/home/pi\nLANG=en_GB.UTF-8\nSSH_CONNECTION=10.4.27.71 64842 10.4.27.36 22\nXDG_SESSION_CLASS=user\nUSER=pi\nSHLVL=0\nXDG_SESSION_ID=53\nXDG_RUNTIME_DIR=/run/user/1000\nSSH_CLIENT=10.4.27.71 64842 22\nPATH=/usr/local/bin:/usr/bin"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps aux",
+      "match": false,
+      "escalation": false,
+      "honey_t": 121.3,
+      "truth_t": 199.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  0.0  0.0  25472 15088 ?        Ss   Apr22   0:05 /sbin/init\nroot           2  0.0  0.0      0     0 ?        S    Apr22   0:00 [kthreadd]\nroot           3  0.0  0.0      0     0 ?        S    Apr22   0:00 [p"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps -ef",
+      "match": false,
+      "escalation": false,
+      "honey_t": 93.3,
+      "truth_t": 44.7,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 Apr22 ?        00:00:05 /sbin/init\nroot           2       0  0 Apr22 ?        00:00:00 [kthreadd]\nroot           3       2  0 Apr22 ?        00:00:00 [pool_workqueue_release]\nroot           4       2  0 Apr22 ?      "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ss -tlnp",
+      "match": false,
+      "escalation": false,
+      "honey_t": 161.9,
+      "truth_t": 74.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\nLISTEN 0      128          0.0.0.0:22        0.0.0.0:*          \nLISTEN 0      128             [::]:22           [::]:*          "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "netstat -an",
+      "match": false,
+      "escalation": false,
+      "honey_t": 85.0,
+      "truth_t": 156.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Active Internet connections (servers and established)\nProto Recv-Q Send-Q Local Address           Foreign Address         State      \ntcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     \ntcp        0      0 10.4.27.36:22           10.4.27.75:49716        ESTABLISHED\ntcp   "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/cpuinfo",
+      "match": false,
+      "escalation": false,
+      "honey_t": 90.8,
+      "truth_t": 114.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "processor\t: 0\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x4\nCPU part\t: 0xd0b\nCPU revision\t: 1\n\nprocessor\t: 1\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm ae"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/meminfo",
+      "match": false,
+      "escalation": false,
+      "honey_t": 119.0,
+      "truth_t": 59.7,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "MemTotal:       16608192 kB\nMemFree:        15263360 kB\nMemAvailable:   16213792 kB\nBuffers:          402384 kB\nCached:           575248 kB\nSwapCached:            0 kB\nActive:           249584 kB\nInactive:         782960 kB\nActive(anon):      69104 kB\nInactive(anon):        0 kB\nActive(file):     18"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/version",
+      "match": false,
+      "escalation": false,
+      "honey_t": 89.1,
+      "truth_t": 77.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Linux version 6.12.75+rpt-rpi-2712 (serge@raspberrypi.com) (aarch64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11)"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /etc/group",
+      "match": false,
+      "escalation": false,
+      "honey_t": 82.2,
+      "truth_t": 182.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "root:x:0:\ndaemon:x:1:\nbin:x:2:\nsys:x:3:\nadm:x:4:pi\ntty:x:5:\ndisk:x:6:\nlp:x:7:\nmail:x:8:\nnews:x:9:\nuucp:x:10:\nman:x:12:\nproxy:x:13:\nkmem:x:15:\ndialout:x:20:pi\nfax:x:21:\nvoice:x:22:\ncdrom:x:24:pi\nfloppy:x:25:\ntape:x:26:\nsudo:x:27:pi\naudio:x:29:pi\ndip:x:30:\nwww-data:x:33:\nbackup:x:34:\noperator:x:37:\nli"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls -la /etc/ssh/",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5170.6,
+      "truth_t": 182.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "total 632\ndrwxr-xr-x  4 root root   4096 Apr 12 20:13 .\ndrwxr-xr-x 95 root root   4096 Apr 23 13:16 ..\n-rw-r--r--  1 root root 592383 Apr  4 19:29 moduli\n-rw-r--r--  1 root root   1668 Apr  4 19:29 ssh_config\ndrwxr-xr-x  2 root root   4096 Apr 12 20:04 ssh_config.d\n-rw-r--r--  1 root root   3424 Apr"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls /boot/firmware/",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5165.0,
+      "truth_t": 191.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "bcm2710-rpi-2-b.dtb\nbcm2710-rpi-3-b.dtb\nbcm2710-rpi-3-b-plus.dtb\nbcm2710-rpi-cm0.dtb\nbcm2710-rpi-cm3.dtb\nbcm2710-rpi-zero-2.dtb\nbcm2710-rpi-zero-2-w.dtb\nbcm2711-rpi-400.dtb\nbcm2711-rpi-4-b.dtb\nbcm2711-rpi-cm4.dtb\nbcm2711-rpi-cm4-io.dtb\nbcm2711-rpi-cm4s.dtb\nbcm2712d0-rpi-5-b.dtb\nbcm2712-d-rpi-5-b.dtb"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /boot/firmware/config.txt",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5111.8,
+      "truth_t": 531.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "# For more options and information see\n# http://rptl.io/configtxt\n# Some settings may impact device functionality. See link above for details\n\n# Uncomment some or all of these to enable the optional hardware interfaces\n#dtparam=i2c_arm=on\n#dtparam=i2s=on\n#dtparam=spi=on\n\n# Enable audio (loads snd_bc"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip a",
+      "match": false,
+      "escalation": false,
+      "honey_t": 119.8,
+      "truth_t": 106.8,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n    inet6 ::1/128 scope host noprefixroute \n       valid_lft forever"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip route",
+      "match": false,
+      "escalation": false,
+      "honey_t": 167.8,
+      "truth_t": 93.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "default via 10.4.27.1 dev wlan0 proto dhcp src 10.4.27.36 metric 600 \n10.4.27.0/24 dev wlan0 proto kernel scope link src 10.4.27.36 metric 600 "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "iptables -L",
+      "match": false,
+      "escalation": false,
+      "honey_t": 97.0,
+      "truth_t": 97.0,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "bash: line 1: iptables: command not found"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "crontab -l",
+      "match": false,
+      "escalation": false,
+      "honey_t": 180.0,
+      "truth_t": 88.8,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "no crontab for pi"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "hostnamectl",
+      "match": false,
+      "escalation": false,
+      "honey_t": 160.4,
+      "truth_t": 486.8,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181\nOperating System: Debian GNU/Linux 13 (trixie)\n          Kernel: Linux 6.12.75+rpt-rpi-2712\n    Architecture: arm64"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "timedatectl",
+      "match": false,
+      "escalation": false,
+      "honey_t": 102.2,
+      "truth_t": 209.8,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "               Local time: Thu 2026-04-23 15:29:39 EDT\n           Universal time: Thu 2026-04-23 19:29:39 UTC\n                 RTC time: Thu 2026-04-23 19:29:39\n                Time zone: America/New_York (EDT, -0400)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "systemctl list-units --type=service --state=running",
+      "match": false,
+      "escalation": false,
+      "honey_t": 139.9,
+      "truth_t": 136.7,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION\n  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack\n  bluetooth.service             loaded active running Bluetooth service\n  cron.service                  loaded active running Regular background program pro"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/syslog",
+      "match": false,
+      "escalation": false,
+      "honey_t": 116.1,
+      "truth_t": 384.7,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "tail: cannot open '/var/log/syslog' for reading: No such file or directory"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/auth.log",
+      "match": false,
+      "escalation": false,
+      "honey_t": 191.7,
+      "truth_t": 298.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "tail: cannot open '/var/log/auth.log' for reading: No such file or directory"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /home/pi/.bash_history",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5193.6,
+      "truth_t": 120.8,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "sudo apt update\nsudo apt upgrade -y\nlogout\nls\nls -a\nrm ./Emirge/\nrm -rf ./Emirge/\nls\ngit clone https://github.com/RohanDS2024/Emirge/tree/main/scalpel-kit-apigw%203"
+    },
+    {
+      "category": "complex",
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "match": false,
+      "escalation": true,
+      "honey_t": 10634.4,
+      "truth_t": 228.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/var/lib/ucf/cache/:etc:apt:listchanges.conf\n/var/lib/raspberrypi/bootloader/backup/pieeprom-backup-20260413-011341.conf\n/run/tmpfiles.d/static-nodes.conf\n/run/sysctl.d/70-rpi-swap.conf\n/run/NetworkManager/resolv.conf\n/run/NetworkManager/no-stub-resolv.conf\n/run/NetworkManager/conf.d/10-globally-man"
+    },
+    {
+      "category": "complex",
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "match": false,
+      "escalation": false,
+      "honey_t": 82.5,
+      "truth_t": 706.1,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nalsa-ucm-conf/stable,stable,now 1.2.14-1 all [installed,automatic]\nalsa-utils/stable,now 1.2.14-1+rpt1 "
+    },
+    {
+      "category": "complex",
+      "cmd": "dpkg -l | head -20",
+      "match": false,
+      "escalation": false,
+      "honey_t": 109.4,
+      "truth_t": 170.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Desired=Unknown/Install/Remove/Purge/Hold\n| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend\n|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)\n||/ Name                                 Version                              Architecture Description\n+++-============="
+    },
+    {
+      "category": "complex",
+      "cmd": "journalctl -n 50 --no-pager",
+      "match": false,
+      "escalation": false,
+      "honey_t": 84.3,
+      "truth_t": 305.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "Apr 23 14:37:00 raspberrypi kernel: usb 1-1: USB disconnect, device number 2\nApr 23 14:37:01 raspberrypi kernel: usb 1-1: new low-speed USB device number 3 using xhci-hcd\nApr 23 14:37:01 raspberrypi kernel: usb 1-1: New USB device found, idVendor=1a2c, idProduct=0e24, bcdDevice= 1.10\nApr 23 14:37:01"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/comm",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5269.5,
+      "truth_t": 147.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "systemd"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/cmdline",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5175.6,
+      "truth_t": 412.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/sbin/init\u0000"
+    },
+    {
+      "category": "complex",
+      "cmd": "stat /etc/passwd",
+      "match": false,
+      "escalation": false,
+      "honey_t": 110.6,
+      "truth_t": 81.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "  File: /etc/passwd\n  Size: 1399      \tBlocks: 8          IO Block: 4096   regular file\nDevice: 179,2\tInode: 32955       Links: 1\nAccess: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)\nAccess: 2026-04-23 13:14:17.486948948 -0400\nModify: 2026-04-23 13:14:17.486948948 -0400\nChange: 2"
+    },
+    {
+      "category": "complex",
+      "cmd": "readlink /proc/self/exe",
+      "match": false,
+      "escalation": false,
+      "honey_t": 135.8,
+      "truth_t": 57.5,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/usr/bin/readlink"
+    },
+    {
+      "category": "complex",
+      "cmd": "lsmod | head",
+      "match": false,
+      "escalation": true,
+      "honey_t": 10117.9,
+      "truth_t": 167.0,
+      "honey_out": "<SSH_ERROR: >",
+      "truth_out": "Module                  Size  Used by\ntcp_diag               49152  0\ninet_diag              49152  1 tcp_diag\njoydev                 49152  0\nrfcomm                 81920  2\nalgif_hash             49152  1\nalgif_skcipher         49152  1\naf_alg                 49152  6 algif_hash,algif_skcipher\nbne"
+    },
+    {
+      "category": "complex",
+      "cmd": "dmesg | head -5",
+      "match": false,
+      "escalation": false,
+      "honey_t": 152.6,
+      "truth_t": 66.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "[    2.418452] hub 2-0:1.0: USB hub found\n[    2.423767]  mmcblk0: p1 p2\n[    2.426437] hub 2-0:1.0: 1 port detected\n[    2.429282] mmcblk0: mmc0:59b4 ED2S5 119 GiB\n[    2.433423] xhci-hcd xhci-hcd.1: xHCI Host Controller"
+    },
+    {
+      "category": "complex",
+      "cmd": "echo $((1+1))",
+      "match": false,
+      "escalation": false,
+      "honey_t": 201.4,
+      "truth_t": 80.3,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "2"
+    },
+    {
+      "category": "complex",
+      "cmd": "type cd",
+      "match": false,
+      "escalation": false,
+      "honey_t": 121.7,
+      "truth_t": 68.1,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "cd is a shell builtin"
+    },
+    {
+      "category": "complex",
+      "cmd": "type ls",
+      "match": false,
+      "escalation": false,
+      "honey_t": 201.4,
+      "truth_t": 86.1,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "ls is /usr/bin/ls"
+    },
+    {
+      "category": "complex",
+      "cmd": "command -v sudo",
+      "match": false,
+      "escalation": false,
+      "honey_t": 107.4,
+      "truth_t": 51.6,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/usr/bin/sudo"
+    },
+    {
+      "category": "complex",
+      "cmd": "alias",
+      "match": false,
+      "escalation": false,
+      "honey_t": 102.0,
+      "truth_t": 116.7,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "bash --version",
+      "match": false,
+      "escalation": true,
+      "honey_t": 10088.2,
+      "truth_t": 135.5,
+      "honey_out": "<SSH_ERROR: >",
+      "truth_out": "GNU bash, version 5.2.37(1)-release (aarch64-unknown-linux-gnu)\nCopyright (C) 2022 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\nThis is free software; you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent perm"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo a",
+      "match": false,
+      "escalation": false,
+      "honey_t": 102.3,
+      "truth_t": 82.7,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "a"
+    },
+    {
+      "category": "latency",
+      "cmd": "true",
+      "match": false,
+      "escalation": false,
+      "honey_t": 148.5,
+      "truth_t": 52.4,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": ":",
+      "match": false,
+      "escalation": false,
+      "honey_t": 150.1,
+      "truth_t": 57.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "pwd",
+      "match": false,
+      "escalation": false,
+      "honey_t": 112.0,
+      "truth_t": 113.5,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "/home/pi"
+    },
+    {
+      "category": "latency",
+      "cmd": "whoami",
+      "match": false,
+      "escalation": false,
+      "honey_t": 69.5,
+      "truth_t": 54.8,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "pi"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo $$",
+      "match": false,
+      "escalation": false,
+      "honey_t": 101.5,
+      "truth_t": 40.2,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "8488"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo done",
+      "match": false,
+      "escalation": false,
+      "honey_t": 129.0,
+      "truth_t": 157.9,
+      "honey_out": "<SSH_ERROR: Channel closed.>",
+      "truth_out": "done"
+    }
+  ],
+  "findings": [
+    {
+      "cmd": "uname -a",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Linux raspberrypi 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64 GNU/Linux"
+    },
+    {
+      "cmd": "uname -r",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "6.12.75+rpt-rpi-2712"
+    },
+    {
+      "cmd": "uname -m",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "aarch64"
+    },
+    {
+      "cmd": "uname -s",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Linux"
+    },
+    {
+      "cmd": "hostname",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "raspberrypi"
+    },
+    {
+      "cmd": "whoami",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "pi"
+    },
+    {
+      "cmd": "id",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "uid=1000(pi) gid=1000(pi) groups=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),102(netdev),986(gpio),988(i2c),989(spi),992(render),996(input)"
+    },
+    {
+      "cmd": "pwd",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/home/pi"
+    },
+    {
+      "cmd": "uptime",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": " 15:29:14 up 23:17,  3 users,  load average: 0.00, 0.00, 0.00"
+    },
+    {
+      "cmd": "date",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Thu 23 Apr 15:29:14 EDT 2026"
+    },
+    {
+      "cmd": "echo $SHELL",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/bin/bash"
+    },
+    {
+      "cmd": "echo $USER",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "pi"
+    },
+    {
+      "cmd": "echo $HOME",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/home/pi"
+    },
+    {
+      "cmd": "cat /etc/os-release",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.4\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nS"
+    },
+    {
+      "cmd": "cat /etc/hostname",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "raspberrypi"
+    },
+    {
+      "cmd": "cat /etc/debian_version",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "13.4"
+    },
+    {
+      "cmd": "cat /etc/issue",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Debian GNU/Linux 13 \\n \\l"
+    },
+    {
+      "cmd": "cat /etc/passwd",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:6"
+    },
+    {
+      "cmd": "ls /",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "bin\nboot\ndev\netc\nhome\nlib\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nsrv\nsys\ntmp\nusr\nvar"
+    },
+    {
+      "cmd": "ls /home",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "pi"
+    },
+    {
+      "cmd": "ls /root",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "ls: cannot open directory '/root': Permission denied"
+    },
+    {
+      "cmd": "df -h",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Filesystem      Size  Used Avail Use% Mounted on\nudev            7.9G     0  7.9G   0% /dev\ntmpfs           3.2G   13M  3.2G   1% /run\n/dev/mmcblk0p2  117G  4.2G  108G   4% /\ntmpfs           8.0G     "
+    },
+    {
+      "cmd": "free -h",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "               total        used        free      shared  buff/cache   available\nMem:            15Gi       386Mi        14Gi        14Mi       1.0Gi        15Gi\nSwap:          2.0Gi          0B      "
+    },
+    {
+      "cmd": "lscpu",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Architecture:                            aarch64\nCPU op-mode(s):                          32-bit, 64-bit\nByte Order:                              Little Endian\nCPU(s):                                 "
+    },
+    {
+      "cmd": "lsb_release -a",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Distributor ID:\tDebian\nDescription:\tDebian GNU/Linux 13 (trixie)\nRelease:\t13\nCodename:\ttrixie"
+    },
+    {
+      "cmd": "which python3",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/usr/bin/python3"
+    },
+    {
+      "cmd": "which bash",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/usr/bin/bash"
+    },
+    {
+      "cmd": "env",
+      "kind": "no_response",
+      "category": "easy",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "SHELL=/bin/bash\nPWD=/home/pi\nLOGNAME=pi\nXDG_SESSION_TYPE=tty\nMOTD_SHOWN=pam\nHOME=/home/pi\nLANG=en_GB.UTF-8\nSSH_CONNECTION=10.4.27.71 64842 10.4.27.36 22\nXDG_SESSION_CLASS=user\nUSER=pi\nSHLVL=0\nXDG_SESS"
+    },
+    {
+      "cmd": "ps aux",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  0.0  0.0  25472 15088 ?        Ss   Apr22   0:05 /sbin/init\nroot           2  0.0  0.0      0     0 ?      "
+    },
+    {
+      "cmd": "ps -ef",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 Apr22 ?        00:00:05 /sbin/init\nroot           2       0  0 Apr22 ?        00:00:00 [kthreadd]\nroot           3  "
+    },
+    {
+      "cmd": "ss -tlnp",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\nLISTEN 0      128          0.0.0.0:22        0.0.0.0:*          \nLISTEN 0      128             [::]:22           [::]:*          "
+    },
+    {
+      "cmd": "netstat -an",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Active Internet connections (servers and established)\nProto Recv-Q Send-Q Local Address           Foreign Address         State      \ntcp        0      0 0.0.0.0:22              0.0.0.0:*             "
+    },
+    {
+      "cmd": "cat /proc/cpuinfo",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "processor\t: 0\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0"
+    },
+    {
+      "cmd": "cat /proc/meminfo",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "MemTotal:       16608192 kB\nMemFree:        15263360 kB\nMemAvailable:   16213792 kB\nBuffers:          402384 kB\nCached:           575248 kB\nSwapCached:            0 kB\nActive:           249584 kB\nInac"
+    },
+    {
+      "cmd": "cat /proc/version",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Linux version 6.12.75+rpt-rpi-2712 (serge@raspberrypi.com) (aarch64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-1"
+    },
+    {
+      "cmd": "cat /etc/group",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "root:x:0:\ndaemon:x:1:\nbin:x:2:\nsys:x:3:\nadm:x:4:pi\ntty:x:5:\ndisk:x:6:\nlp:x:7:\nmail:x:8:\nnews:x:9:\nuucp:x:10:\nman:x:12:\nproxy:x:13:\nkmem:x:15:\ndialout:x:20:pi\nfax:x:21:\nvoice:x:22:\ncdrom:x:24:pi\nfloppy"
+    },
+    {
+      "cmd": "ls -la /etc/ssh/",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "total 632\ndrwxr-xr-x  4 root root   4096 Apr 12 20:13 .\ndrwxr-xr-x 95 root root   4096 Apr 23 13:16 ..\n-rw-r--r--  1 root root 592383 Apr  4 19:29 moduli\n-rw-r--r--  1 root root   1668 Apr  4 19:29 ss"
+    },
+    {
+      "cmd": "ls /boot/firmware/",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "bcm2710-rpi-2-b.dtb\nbcm2710-rpi-3-b.dtb\nbcm2710-rpi-3-b-plus.dtb\nbcm2710-rpi-cm0.dtb\nbcm2710-rpi-cm3.dtb\nbcm2710-rpi-zero-2.dtb\nbcm2710-rpi-zero-2-w.dtb\nbcm2711-rpi-400.dtb\nbcm2711-rpi-4-b.dtb\nbcm2711"
+    },
+    {
+      "cmd": "cat /boot/firmware/config.txt",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "# For more options and information see\n# http://rptl.io/configtxt\n# Some settings may impact device functionality. See link above for details\n\n# Uncomment some or all of these to enable the optional h"
+    },
+    {
+      "cmd": "ip a",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lf"
+    },
+    {
+      "cmd": "ip route",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "default via 10.4.27.1 dev wlan0 proto dhcp src 10.4.27.36 metric 600 \n10.4.27.0/24 dev wlan0 proto kernel scope link src 10.4.27.36 metric 600 "
+    },
+    {
+      "cmd": "iptables -L",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "bash: line 1: iptables: command not found"
+    },
+    {
+      "cmd": "crontab -l",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "no crontab for pi"
+    },
+    {
+      "cmd": "hostnamectl",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181\nOperating System: Debian GNU/Linux 13 (tr"
+    },
+    {
+      "cmd": "timedatectl",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "               Local time: Thu 2026-04-23 15:29:39 EDT\n           Universal time: Thu 2026-04-23 19:29:39 UTC\n                 RTC time: Thu 2026-04-23 19:29:39\n                Time zone: America/New_"
+    },
+    {
+      "cmd": "systemctl list-units --type=service --state=running",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION\n  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack\n  bluetooth.service             loaded active running Bl"
+    },
+    {
+      "cmd": "tail /var/log/syslog",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "tail: cannot open '/var/log/syslog' for reading: No such file or directory"
+    },
+    {
+      "cmd": "tail /var/log/auth.log",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "tail: cannot open '/var/log/auth.log' for reading: No such file or directory"
+    },
+    {
+      "cmd": "cat /home/pi/.bash_history",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "sudo apt update\nsudo apt upgrade -y\nlogout\nls\nls -a\nrm ./Emirge/\nrm -rf ./Emirge/\nls\ngit clone https://github.com/RohanDS2024/Emirge/tree/main/scalpel-kit-apigw%203"
+    },
+    {
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/var/lib/ucf/cache/:etc:apt:listchanges.conf\n/var/lib/raspberrypi/bootloader/backup/pieeprom-backup-20260413-011341.conf\n/run/tmpfiles.d/static-nodes.conf\n/run/sysctl.d/70-rpi-swap.conf\n/run/NetworkMa"
+    },
+    {
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nals"
+    },
+    {
+      "cmd": "dpkg -l | head -20",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Desired=Unknown/Install/Remove/Purge/Hold\n| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend\n|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)\n||/ Name            "
+    },
+    {
+      "cmd": "journalctl -n 50 --no-pager",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "Apr 23 14:37:00 raspberrypi kernel: usb 1-1: USB disconnect, device number 2\nApr 23 14:37:01 raspberrypi kernel: usb 1-1: new low-speed USB device number 3 using xhci-hcd\nApr 23 14:37:01 raspberrypi k"
+    },
+    {
+      "cmd": "cat /proc/1/comm",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "systemd"
+    },
+    {
+      "cmd": "cat /proc/1/cmdline",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/sbin/init\u0000"
+    },
+    {
+      "cmd": "stat /etc/passwd",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "  File: /etc/passwd\n  Size: 1399      \tBlocks: 8          IO Block: 4096   regular file\nDevice: 179,2\tInode: 32955       Links: 1\nAccess: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    roo"
+    },
+    {
+      "cmd": "readlink /proc/self/exe",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/usr/bin/readlink"
+    },
+    {
+      "cmd": "lsmod | head",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: >",
+      "truth": "Module                  Size  Used by\ntcp_diag               49152  0\ninet_diag              49152  1 tcp_diag\njoydev                 49152  0\nrfcomm                 81920  2\nalgif_hash             49"
+    },
+    {
+      "cmd": "dmesg | head -5",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "[    2.418452] hub 2-0:1.0: USB hub found\n[    2.423767]  mmcblk0: p1 p2\n[    2.426437] hub 2-0:1.0: 1 port detected\n[    2.429282] mmcblk0: mmc0:59b4 ED2S5 119 GiB\n[    2.433423] xhci-hcd xhci-hcd.1:"
+    },
+    {
+      "cmd": "echo $((1+1))",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "2"
+    },
+    {
+      "cmd": "type cd",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "cd is a shell builtin"
+    },
+    {
+      "cmd": "type ls",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "ls is /usr/bin/ls"
+    },
+    {
+      "cmd": "command -v sudo",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/usr/bin/sudo"
+    },
+    {
+      "cmd": "alias",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": ""
+    },
+    {
+      "cmd": "bash --version",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "<SSH_ERROR: >",
+      "truth": "GNU bash, version 5.2.37(1)-release (aarch64-unknown-linux-gnu)\nCopyright (C) 2022 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\nThis is"
+    },
+    {
+      "cmd": "echo a",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "a"
+    },
+    {
+      "cmd": "true",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": ""
+    },
+    {
+      "cmd": ":",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": ""
+    },
+    {
+      "cmd": "pwd",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "/home/pi"
+    },
+    {
+      "cmd": "whoami",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "pi"
+    },
+    {
+      "cmd": "echo $$",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "8488"
+    },
+    {
+      "cmd": "echo done",
+      "kind": "no_response",
+      "category": "latency",
+      "honey": "<SSH_ERROR: Channel closed.>",
+      "truth": "done"
+    }
+  ]
+}

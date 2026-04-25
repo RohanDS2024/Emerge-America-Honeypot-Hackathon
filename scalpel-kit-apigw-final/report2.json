@@ -1,0 +1,740 @@
+{
+  "score": {
+    "total_probes": 72,
+    "demerits": 0,
+    "escalations": 0,
+    "crashes": 0,
+    "realism_pts": 100.0,
+    "efficiency_pts": 100.0,
+    "presentation_pts": 90.0,
+    "final_score": 98.0,
+    "tiebreaker": [
+      100.0,
+      100.0,
+      90.0
+    ]
+  },
+  "results": [
+    {
+      "category": "easy",
+      "cmd": "uname -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -r",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -m",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -s",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "id",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "uptime",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "date",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $SHELL",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $USER",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $HOME",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/os-release",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/debian_version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/issue",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /home",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /root",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "df -h",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "free -h",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "lscpu",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "lsb_release -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "which python3",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "which bash",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "easy",
+      "cmd": "env",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps aux",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps -ef",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ss -tlnp",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "netstat -an",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/cpuinfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/meminfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /etc/group",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls -la /etc/ssh/",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls /boot/firmware/",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /boot/firmware/config.txt",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip route",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "iptables -L",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "crontab -l",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "hostnamectl",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "timedatectl",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "systemctl list-units --type=service --state=running",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/syslog",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/auth.log",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /home/pi/.bash_history",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "dpkg -l | head -20",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "journalctl -n 50 --no-pager",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/comm",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/cmdline",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "stat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "readlink /proc/self/exe",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "lsmod | head",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "dmesg | head -5",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "echo $((1+1))",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "type cd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "type ls",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "command -v sudo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "alias",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "complex",
+      "cmd": "bash --version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": "true",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": ":",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo $$",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo done",
+      "match": true,
+      "escalation": false,
+      "honey_t": 0.0,
+      "truth_t": 0.0,
+      "honey_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>",
+      "truth_out": "<SSH_ERROR: 'SSHRunner' object has no attribute 'shell'>"
+    }
+  ],
+  "findings": []
+}

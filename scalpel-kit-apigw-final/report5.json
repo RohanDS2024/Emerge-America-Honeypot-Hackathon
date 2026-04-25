@@ -1,0 +1,853 @@
+{
+  "score": {
+    "total_probes": 72,
+    "demerits": 16,
+    "escalations": 7,
+    "crashes": 0,
+    "realism_pts": 77.78,
+    "efficiency_pts": 90.28,
+    "presentation_pts": 90.0,
+    "final_score": 85.22,
+    "tiebreaker": [
+      90.28,
+      77.78,
+      90.0
+    ]
+  },
+  "results": [
+    {
+      "category": "easy",
+      "cmd": "uname -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 241.6,
+      "truth_t": 33.2,
+      "honey_out": "uname -a; echo",
+      "truth_out": "uname -a; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -r",
+      "match": true,
+      "escalation": false,
+      "honey_t": 98.2,
+      "truth_t": 35.2,
+      "honey_out": "uname -r; echo",
+      "truth_out": "uname -r; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -m",
+      "match": true,
+      "escalation": false,
+      "honey_t": 139.4,
+      "truth_t": 33.6,
+      "honey_out": "uname -m; echo",
+      "truth_out": "uname -m; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -s",
+      "match": true,
+      "escalation": false,
+      "honey_t": 65.5,
+      "truth_t": 34.8,
+      "honey_out": "uname -s; echo",
+      "truth_out": "uname -s; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "hostname",
+      "match": false,
+      "escalation": false,
+      "honey_t": 66.0,
+      "truth_t": 33.6,
+      "honey_out": "hostname; echo",
+      "truth_out": "Linux\n___DONE_1776973479210282___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ hostname; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.4,
+      "truth_t": 35.1,
+      "honey_out": "whoami; echo",
+      "truth_out": "whoami; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "id",
+      "match": true,
+      "escalation": false,
+      "honey_t": 70.1,
+      "truth_t": 95.6,
+      "honey_out": "id; echo",
+      "truth_out": "id; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 30.4,
+      "truth_t": 35.1,
+      "honey_out": "pwd; echo",
+      "truth_out": "pwd; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "uptime",
+      "match": false,
+      "escalation": false,
+      "honey_t": 67.0,
+      "truth_t": 34.9,
+      "honey_out": "/root\n___DONE_1776973479579496___\nroot@raspberrypi:~# uptime; echo",
+      "truth_out": "uptime; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "date",
+      "match": true,
+      "escalation": false,
+      "honey_t": 65.9,
+      "truth_t": 34.0,
+      "honey_out": "date; echo",
+      "truth_out": "date; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $SHELL",
+      "match": false,
+      "escalation": false,
+      "honey_t": 33.8,
+      "truth_t": 66.1,
+      "honey_out": "echo $SHELL; echo",
+      "truth_out": "\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ echo $SHELL; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $USER",
+      "match": true,
+      "escalation": false,
+      "honey_t": 134.2,
+      "truth_t": 65.5,
+      "honey_out": "echo $USER; echo",
+      "truth_out": "echo $USER; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $HOME",
+      "match": true,
+      "escalation": false,
+      "honey_t": 99.9,
+      "truth_t": 65.6,
+      "honey_out": "echo $HOME; echo",
+      "truth_out": "echo $HOME; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/os-release",
+      "match": true,
+      "escalation": false,
+      "honey_t": 69.4,
+      "truth_t": 70.2,
+      "honey_out": "cat /etc/os-release; echo",
+      "truth_out": "cat /etc/os-release; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.3,
+      "truth_t": 102.7,
+      "honey_out": "cat /etc/hostname; echo",
+      "truth_out": "cat /etc/hostname; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/debian_version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 97.3,
+      "truth_t": 35.2,
+      "honey_out": "cat /etc/debian_version; echo",
+      "truth_out": "cat /etc/debian_version; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/issue",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.4,
+      "truth_t": 35.2,
+      "honey_out": "cat /etc/issue; echo",
+      "truth_out": "cat /etc/issue; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 35.1,
+      "honey_out": "cat /etc/passwd; echo",
+      "truth_out": "cat /etc/passwd; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 65.3,
+      "honey_out": "root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/va",
+      "truth_out": "ls /; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /home",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 96.6,
+      "honey_out": "ls /home; echo",
+      "truth_out": "ls /home; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /root",
+      "match": true,
+      "escalation": false,
+      "honey_t": 69.2,
+      "truth_t": 35.2,
+      "honey_out": "ls /root; echo",
+      "truth_out": "ls /root; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "df -h",
+      "match": true,
+      "escalation": false,
+      "honey_t": 67.1,
+      "truth_t": 31.1,
+      "honey_out": "df -h; echo",
+      "truth_out": "df -h; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "free -h",
+      "match": true,
+      "escalation": false,
+      "honey_t": 69.4,
+      "truth_t": 62.9,
+      "honey_out": "free -h; echo",
+      "truth_out": "free -h; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "lscpu",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.7,
+      "truth_t": 35.1,
+      "honey_out": "lscpu; echo",
+      "truth_out": "lscpu; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "lsb_release -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 105.2,
+      "truth_t": 35.1,
+      "honey_out": "lsb_release -a; echo",
+      "truth_out": "lsb_release -a; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "which python3",
+      "match": true,
+      "escalation": false,
+      "honey_t": 105.1,
+      "truth_t": 35.1,
+      "honey_out": "which python3; echo",
+      "truth_out": "which python3; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "which bash",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.6,
+      "truth_t": 34.9,
+      "honey_out": "which bash; echo",
+      "truth_out": "which bash; echo"
+    },
+    {
+      "category": "easy",
+      "cmd": "env",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 34.0,
+      "honey_out": "env; echo",
+      "truth_out": "env; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps aux",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.4,
+      "truth_t": 35.2,
+      "honey_out": "ps aux; echo",
+      "truth_out": "ps aux; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps -ef",
+      "match": false,
+      "escalation": false,
+      "honey_t": 99.5,
+      "truth_t": 34.9,
+      "honey_out": "root         448   0.0        0.59       56508416  3067904   ?       D<    Jul22 0.01  /usr/sbin/sshd -D\nDebian-exim  682   0.0        0.42       54530048  2154496   ?       D<    Jul22 0.0   /usr/sbin/exim4 -bd -q30m\nroot         697   0.0        0.11       26009600  589824    ?       Ss    Jul22 0",
+      "truth_out": "ps -ef; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ss -tlnp",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 34.9,
+      "honey_out": "ss -tlnp; echo",
+      "truth_out": "root         684       1  0 Apr22 ?        00:00:04 /usr/sbin/NetworkManager --no-daemon\nroot         685       1  0 Apr22 ?        00:00:01 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev\nroot         695       2  0 Apr22 ?        00:00:00 [krfcommd]\nroot        1081       1 "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "netstat -an",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 33.4,
+      "honey_out": "netstat -an; echo",
+      "truth_out": "netstat -an; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/cpuinfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 64.2,
+      "truth_t": 35.0,
+      "honey_out": "cat /proc/cpuinfo; echo",
+      "truth_out": "cat /proc/cpuinfo; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/meminfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 101.4,
+      "truth_t": 33.1,
+      "honey_out": "cat /proc/meminfo; echo",
+      "truth_out": "cat /proc/meminfo; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/version",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 105.2,
+      "honey_out": "cat /proc/version; echo",
+      "truth_out": "\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ cat /proc/version; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /etc/group",
+      "match": true,
+      "escalation": false,
+      "honey_t": 70.2,
+      "truth_t": 34.7,
+      "honey_out": "cat /etc/group; echo",
+      "truth_out": "cat /etc/group; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls -la /etc/ssh/",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5162.2,
+      "truth_t": 134.5,
+      "honey_out": "ls -la /etc/ssh/; echo",
+      "truth_out": "ls -la /etc/ssh/; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls /boot/firmware/",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5090.9,
+      "truth_t": 64.9,
+      "honey_out": "ls /boot/firmware/; echo",
+      "truth_out": "___DONE_1776973488007091___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ ls /boot/firmware/; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /boot/firmware/config.txt",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5147.5,
+      "truth_t": 105.2,
+      "honey_out": "cat /boot/firmware/config.txt; echo",
+      "truth_out": "cat /boot/firmware/config.txt; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.6,
+      "truth_t": 35.2,
+      "honey_out": "ip a; echo",
+      "truth_out": "ip a; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip route",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.5,
+      "truth_t": 32.5,
+      "honey_out": "ip route; echo",
+      "truth_out": "ip route; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "iptables -L",
+      "match": false,
+      "escalation": false,
+      "honey_t": 99.9,
+      "truth_t": 32.3,
+      "honey_out": "iptables -L; echo",
+      "truth_out": "default via 10.4.27.1 dev wlan0 proto dhcp src 10.4.27.36 metric 600\n10.4.27.0/24 dev wlan0 proto kernel scope link src 10.4.27.36 metric 600\n___DONE_1776973498689316___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ iptables -L; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "crontab -l",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.0,
+      "truth_t": 70.1,
+      "honey_out": "crontab -l; echo",
+      "truth_out": "crontab -l; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "hostnamectl",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 34.5,
+      "honey_out": "hostnamectl; echo",
+      "truth_out": "no crontab for pi\n___DONE_1776973498889353___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ hostnamectl; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "timedatectl",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.5,
+      "truth_t": 32.1,
+      "honey_out": "timedatectl; echo",
+      "truth_out": "timedatectl; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "systemctl list-units --type=service --state=running",
+      "match": false,
+      "escalation": false,
+      "honey_t": 31.1,
+      "truth_t": 35.1,
+      "honey_out": "systemctl list-units --type=service --state=running; echo",
+      "truth_out": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181\nOperating System: \u001b]8;;https://www.debian.org/\u001b\\Debian GNU/Linux 13 (trixie)\u001b]8;;\u001b\\\n          Kernel: Linux 6.12.75+rpt-rpi-2712\n    Architec"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/syslog",
+      "match": false,
+      "escalation": false,
+      "honey_t": 68.6,
+      "truth_t": 66.7,
+      "honey_out": "tail /var/log/syslog; echo",
+      "truth_out": "               Local time: Thu 2026-04-23 15:44:59 EDT\n           Universal time: Thu 2026-04-23 19:44:59 UTC\n                 RTC time: Thu 2026-04-23 19:44:59\n                Time zone: America/New_York (EDT, -0400)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/auth.log",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 69.6,
+      "honey_out": "tail /var/log/auth.log; echo",
+      "truth_out": "tail /var/log/auth.log; echo"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /home/pi/.bash_history",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5409.9,
+      "truth_t": 65.3,
+      "honey_out": "cat /home/pi/.bash_history; echo",
+      "truth_out": "cat /home/pi/.bash_history; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "match": false,
+      "escalation": true,
+      "honey_t": 10009.2,
+      "truth_t": 167.5,
+      "honey_out": "",
+      "truth_out": "readlink /proc/self/exe; echo ___DONE_1776973162628___\nlsmod | head; echo ___DONE_1776973162730___\ndmesg | head -5; echo ___DONE_1776973162887___\necho $((1+1)); echo ___DONE_1776973162997___\ntype cd; echo ___DONE_1776973163105___\ntype ls; echo ___DONE_1776973163215___\ncommand -v sudo; echo ___DONE_1"
+    },
+    {
+      "category": "complex",
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "match": false,
+      "escalation": false,
+      "honey_t": 440.9,
+      "truth_t": 33.7,
+      "honey_out": "find / -name '*.conf' 2>/dev/null | head -20; echo ___DONE_1776973504881040___\n___DONE_1776973504881040___\nroot@raspberrypi:~# apt list --installed 2>/dev/null | head -30; echo",
+      "truth_out": "apt list --installed 2>/dev/null | head -30; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "dpkg -l | head -20",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.3,
+      "truth_t": 33.9,
+      "honey_out": "dpkg -l | head -20; echo",
+      "truth_out": "dpkg -l | head -20; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "journalctl -n 50 --no-pager",
+      "match": true,
+      "escalation": false,
+      "honey_t": 100.2,
+      "truth_t": 35.1,
+      "honey_out": "journalctl -n 50 --no-pager; echo",
+      "truth_out": "journalctl -n 50 --no-pager; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/comm",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5115.6,
+      "truth_t": 102.4,
+      "honey_out": "cat /proc/1/comm; echo",
+      "truth_out": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nalsa-ucm-conf/stable,stable,now 1.2.14-1 all [installed,automatic]\nalsa-utils/stable,now 1.2.14-1+rpt1 "
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/cmdline",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5113.1,
+      "truth_t": 134.3,
+      "honey_out": "cat /proc/1/cmdline; echo",
+      "truth_out": "cat /proc/1/cmdline; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "stat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.5,
+      "truth_t": 35.2,
+      "honey_out": "stat /etc/passwd; echo",
+      "truth_out": "stat /etc/passwd; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "readlink /proc/self/exe",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.7,
+      "truth_t": 70.2,
+      "honey_out": "readlink /proc/self/exe; echo",
+      "truth_out": "readlink /proc/self/exe; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "lsmod | head",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 30.6,
+      "honey_out": "lsmod | head; echo",
+      "truth_out": "lsmod | head; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "dmesg | head -5",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 35.0,
+      "honey_out": "dmesg | head -5; echo",
+      "truth_out": "dmesg | head -5; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "echo $((1+1))",
+      "match": true,
+      "escalation": false,
+      "honey_t": 132.8,
+      "truth_t": 35.1,
+      "honey_out": "echo $((1+1)); echo",
+      "truth_out": "echo $((1+1)); echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "type cd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 35.1,
+      "honey_out": "type cd; echo",
+      "truth_out": "type cd; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "type ls",
+      "match": true,
+      "escalation": false,
+      "honey_t": 69.6,
+      "truth_t": 31.4,
+      "honey_out": "type ls; echo",
+      "truth_out": "type ls; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "command -v sudo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.1,
+      "truth_t": 33.5,
+      "honey_out": "command -v sudo; echo",
+      "truth_out": "command -v sudo; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "alias",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.2,
+      "truth_t": 33.4,
+      "honey_out": "alias; echo",
+      "truth_out": "alias; echo"
+    },
+    {
+      "category": "complex",
+      "cmd": "bash --version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.2,
+      "truth_t": 35.1,
+      "honey_out": "bash --version; echo",
+      "truth_out": "bash --version; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 102.0,
+      "truth_t": 31.9,
+      "honey_out": "echo a; echo",
+      "truth_out": "echo a; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": "true",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.9,
+      "truth_t": 31.2,
+      "honey_out": "true; echo",
+      "truth_out": "true; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": ":",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.6,
+      "truth_t": 35.2,
+      "honey_out": ":; echo",
+      "truth_out": ":; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 34.4,
+      "honey_out": "pwd; echo",
+      "truth_out": "pwd; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": "whoami",
+      "match": false,
+      "escalation": false,
+      "honey_t": 67.9,
+      "truth_t": 34.3,
+      "honey_out": "/root\n___DONE_1776973527524812___\nroot@raspberrypi:~# whoami; echo",
+      "truth_out": "whoami; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo $$",
+      "match": true,
+      "escalation": false,
+      "honey_t": 100.9,
+      "truth_t": 32.8,
+      "honey_out": "echo $$; echo",
+      "truth_out": "echo $$; echo"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo done",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.6,
+      "truth_t": 35.1,
+      "honey_out": "echo done; echo",
+      "truth_out": "echo done; echo"
+    }
+  ],
+  "findings": [
+    {
+      "cmd": "hostname",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "hostname; echo",
+      "truth": "Linux\n___DONE_1776973479210282___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ hostname; echo"
+    },
+    {
+      "cmd": "uptime",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "/root\n___DONE_1776973479579496___\nroot@raspberrypi:~# uptime; echo",
+      "truth": "uptime; echo"
+    },
+    {
+      "cmd": "echo $SHELL",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "echo $SHELL; echo",
+      "truth": "\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ echo $SHELL; echo"
+    },
+    {
+      "cmd": "ls /",
+      "kind": "filesystem_mismatch",
+      "category": "easy",
+      "honey": "root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:6",
+      "truth": "ls /; echo"
+    },
+    {
+      "cmd": "ps -ef",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "root         448   0.0        0.59       56508416  3067904   ?       D<    Jul22 0.01  /usr/sbin/sshd -D\nDebian-exim  682   0.0        0.42       54530048  2154496   ?       D<    Jul22 0.0   /usr/sbi",
+      "truth": "ps -ef; echo"
+    },
+    {
+      "cmd": "ss -tlnp",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "ss -tlnp; echo",
+      "truth": "root         684       1  0 Apr22 ?        00:00:04 /usr/sbin/NetworkManager --no-daemon\nroot         685       1  0 Apr22 ?        00:00:01 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant G"
+    },
+    {
+      "cmd": "cat /proc/version",
+      "kind": "filesystem_mismatch",
+      "category": "intermediate",
+      "honey": "cat /proc/version; echo",
+      "truth": "\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ cat /proc/version; echo"
+    },
+    {
+      "cmd": "ls /boot/firmware/",
+      "kind": "filesystem_mismatch",
+      "category": "intermediate",
+      "honey": "ls /boot/firmware/; echo",
+      "truth": "___DONE_1776973488007091___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ ls /boot/firmware/; echo"
+    },
+    {
+      "cmd": "iptables -L",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "iptables -L; echo",
+      "truth": "default via 10.4.27.1 dev wlan0 proto dhcp src 10.4.27.36 metric 600\n10.4.27.0/24 dev wlan0 proto kernel scope link src 10.4.27.36 metric 600\n___DONE_1776973498689316___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspb"
+    },
+    {
+      "cmd": "hostnamectl",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "hostnamectl; echo",
+      "truth": "no crontab for pi\n___DONE_1776973498889353___\n\u001b]0;pi@raspberrypi: ~\u0007pi@raspberrypi:~ $ hostnamectl; echo"
+    },
+    {
+      "cmd": "systemctl list-units --type=service --state=running",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "systemctl list-units --type=service --state=running; echo",
+      "truth": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181\nOperating System: \u001b]8;;https://www.debian"
+    },
+    {
+      "cmd": "tail /var/log/syslog",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "tail /var/log/syslog; echo",
+      "truth": "               Local time: Thu 2026-04-23 15:44:59 EDT\n           Universal time: Thu 2026-04-23 19:44:59 UTC\n                 RTC time: Thu 2026-04-23 19:44:59\n                Time zone: America/New_"
+    },
+    {
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "",
+      "truth": "readlink /proc/self/exe; echo ___DONE_1776973162628___\nlsmod | head; echo ___DONE_1776973162730___\ndmesg | head -5; echo ___DONE_1776973162887___\necho $((1+1)); echo ___DONE_1776973162997___\ntype cd; "
+    },
+    {
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "find / -name '*.conf' 2>/dev/null | head -20; echo ___DONE_1776973504881040___\n___DONE_1776973504881040___\nroot@raspberrypi:~# apt list --installed 2>/dev/null | head -30; echo",
+      "truth": "apt list --installed 2>/dev/null | head -30; echo"
+    },
+    {
+      "cmd": "cat /proc/1/comm",
+      "kind": "filesystem_mismatch",
+      "category": "complex",
+      "honey": "cat /proc/1/comm; echo",
+      "truth": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nals"
+    },
+    {
+      "cmd": "whoami",
+      "kind": "wrong_output",
+      "category": "latency",
+      "honey": "/root\n___DONE_1776973527524812___\nroot@raspberrypi:~# whoami; echo",
+      "truth": "whoami; echo"
+    }
+  ]
+}

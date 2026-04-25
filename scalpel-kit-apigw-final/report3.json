@@ -1,0 +1,762 @@
+{
+  "score": {
+    "total_probes": 72,
+    "demerits": 3,
+    "escalations": 7,
+    "crashes": 0,
+    "realism_pts": 95.83,
+    "efficiency_pts": 90.28,
+    "presentation_pts": 90.0,
+    "final_score": 92.44,
+    "tiebreaker": [
+      90.28,
+      95.83,
+      90.0
+    ]
+  },
+  "results": [
+    {
+      "category": "easy",
+      "cmd": "uname -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.3,
+      "truth_t": 55.4,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -r",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.5,
+      "truth_t": 52.0,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -m",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 54.4,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -s",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.3,
+      "truth_t": 108.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 54.7,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.6,
+      "truth_t": 52.6,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "id",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.3,
+      "truth_t": 50.3,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "uptime",
+      "match": true,
+      "escalation": false,
+      "honey_t": 110.2,
+      "truth_t": 52.4,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "date",
+      "match": true,
+      "escalation": false,
+      "honey_t": 50.8,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $SHELL",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.8,
+      "truth_t": 54.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $USER",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.0,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $HOME",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.3,
+      "truth_t": 108.8,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/os-release",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.0,
+      "truth_t": 53.8,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.0,
+      "truth_t": 50.7,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/debian_version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.4,
+      "truth_t": 54.9,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/issue",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.9,
+      "truth_t": 54.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 108.3,
+      "truth_t": 54.6,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.0,
+      "truth_t": 52.0,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /home",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 51.7,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /root",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.9,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "df -h",
+      "match": true,
+      "escalation": false,
+      "honey_t": 109.3,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "free -h",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 53.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "lscpu",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.9,
+      "truth_t": 52.6,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "lsb_release -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.3,
+      "truth_t": 52.6,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "which python3",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.0,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "which bash",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "easy",
+      "cmd": "env",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps aux",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.3,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps -ef",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.6,
+      "truth_t": 52.4,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ss -tlnp",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 110.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "netstat -an",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/cpuinfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/meminfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /etc/group",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 51.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls -la /etc/ssh/",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5075.6,
+      "truth_t": 107.7,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls /boot/firmware/",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5115.5,
+      "truth_t": 110.3,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /boot/firmware/config.txt",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5066.2,
+      "truth_t": 110.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 105.7,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip route",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.0,
+      "truth_t": 52.8,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "iptables -L",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.8,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "crontab -l",
+      "match": true,
+      "escalation": false,
+      "honey_t": 50.8,
+      "truth_t": 53.8,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "hostnamectl",
+      "match": true,
+      "escalation": false,
+      "honey_t": 50.2,
+      "truth_t": 102.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "timedatectl",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 53.3,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "systemctl list-units --type=service --state=running",
+      "match": false,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 50.4,
+      "honey_out": "",
+      "truth_out": "\u001b[0;94m               Local time:\u001b[0m Thu 2026-04-23 15:38:55 EDT\n\u001b[0;94m           Universal time:\u001b[0m Thu 2026-04-23 19:38:55 UTC\n\u001b[0;94m                 RTC time:\u001b[0m Thu 2026-04-23 19:38:55\n\u001b[0;94m                Time zone:\u001b[0m America/New_York (EDT, -0400)\n\u001b[0;94mSystem clock synchronized:\u001b[0m "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/syslog",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.5,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/auth.log",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.0,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /home/pi/.bash_history",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5124.3,
+      "truth_t": 51.0,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "match": true,
+      "escalation": true,
+      "honey_t": 10019.6,
+      "truth_t": 107.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "match": false,
+      "escalation": false,
+      "honey_t": 864.8,
+      "truth_t": 53.9,
+      "honey_out": "find / -name '*.conf' 2>/dev/null | head -20; echo ___DONE_1776973140730___\n\u001b[4l\u001b[4h\u001b[4l___DONE_1776973140730___\n\u001b[4hroot@raspberrypi:~# apt list --installed 2>/dev/null | head -30; echo ",
+      "truth_out": "/run/tmpfiles.d/static-nodes.conf\n/run/sysctl.d/70-rpi-swap.conf\n/run/NetworkManager/resolv.conf\n/run/NetworkManager/no-stub-resolv.conf\n/run/NetworkManager/conf.d/10-globally-managed-devices.conf\n/run/NetworkManager/conf.d/netplan.conf\n/run/systemd/generator/rpi-setup-loop@var-swap.service.d/fast-s"
+    },
+    {
+      "category": "complex",
+      "cmd": "dpkg -l | head -20",
+      "match": true,
+      "escalation": false,
+      "honey_t": 104.6,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "journalctl -n 50 --no-pager",
+      "match": true,
+      "escalation": false,
+      "honey_t": 50.6,
+      "truth_t": 51.6,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/comm",
+      "match": false,
+      "escalation": true,
+      "honey_t": 5086.2,
+      "truth_t": 110.3,
+      "honey_out": "",
+      "truth_out": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nalsa-ucm-conf/stable,stable,now 1.2.14-1 all [installed,automatic]\nalsa-utils/stable,now 1.2.14-1+rpt1 "
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/cmdline",
+      "match": true,
+      "escalation": true,
+      "honey_t": 5128.0,
+      "truth_t": 106.6,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "stat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.8,
+      "truth_t": 51.0,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "readlink /proc/self/exe",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.2,
+      "truth_t": 50.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "lsmod | head",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.7,
+      "truth_t": 51.5,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "dmesg | head -5",
+      "match": true,
+      "escalation": false,
+      "honey_t": 105.3,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "echo $((1+1))",
+      "match": true,
+      "escalation": false,
+      "honey_t": 54.5,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "type cd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.9,
+      "truth_t": 55.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "type ls",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 55.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "command -v sudo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 108.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "alias",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.3,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "bash --version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.2,
+      "truth_t": 52.5,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "echo a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.5,
+      "truth_t": 53.9,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "true",
+      "match": true,
+      "escalation": false,
+      "honey_t": 52.1,
+      "truth_t": 54.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": ":",
+      "match": true,
+      "escalation": false,
+      "honey_t": 104.1,
+      "truth_t": 51.8,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.2,
+      "truth_t": 51.3,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 53.4,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "echo $$",
+      "match": true,
+      "escalation": false,
+      "honey_t": 51.5,
+      "truth_t": 55.2,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "echo done",
+      "match": true,
+      "escalation": false,
+      "honey_t": 55.1,
+      "truth_t": 110.2,
+      "honey_out": "",
+      "truth_out": ""
+    }
+  ],
+  "findings": [
+    {
+      "cmd": "systemctl list-units --type=service --state=running",
+      "kind": "no_response",
+      "category": "intermediate",
+      "honey": "",
+      "truth": "\u001b[0;94m               Local time:\u001b[0m Thu 2026-04-23 15:38:55 EDT\n\u001b[0;94m           Universal time:\u001b[0m Thu 2026-04-23 19:38:55 UTC\n\u001b[0;94m                 RTC time:\u001b[0m Thu 2026-04-23 19:38:55\n\u001b[0;94"
+    },
+    {
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "find / -name '*.conf' 2>/dev/null | head -20; echo ___DONE_1776973140730___\n\u001b[4l\u001b[4h\u001b[4l___DONE_1776973140730___\n\u001b[4hroot@raspberrypi:~# apt list --installed 2>/dev/null | head -30; echo ",
+      "truth": "/run/tmpfiles.d/static-nodes.conf\n/run/sysctl.d/70-rpi-swap.conf\n/run/NetworkManager/resolv.conf\n/run/NetworkManager/no-stub-resolv.conf\n/run/NetworkManager/conf.d/10-globally-managed-devices.conf\n/ru"
+    },
+    {
+      "cmd": "cat /proc/1/comm",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "",
+      "truth": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nals"
+    }
+  ]
+}

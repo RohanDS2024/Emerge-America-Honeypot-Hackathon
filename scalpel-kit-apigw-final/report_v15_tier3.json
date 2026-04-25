@@ -1,0 +1,951 @@
+{
+  "score": {
+    "total_probes": 72,
+    "demerits": 30,
+    "escalations": 1,
+    "crashes": 0,
+    "realism_pts": 58.33,
+    "efficiency_pts": 98.61,
+    "presentation_pts": 90.0,
+    "final_score": 80.78,
+    "tiebreaker": [
+      98.61,
+      58.33,
+      90.0
+    ]
+  },
+  "results": [
+    {
+      "category": "easy",
+      "cmd": "uname -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.6,
+      "truth_t": 30.8,
+      "honey_out": "Linux raspberrypi 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64 GNU/Linux",
+      "truth_out": "Linux raspberrypi 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64 GNU/Linux"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -r",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.0,
+      "truth_t": 35.3,
+      "honey_out": "6.12.75+rpt-rpi-2712",
+      "truth_out": "6.12.75+rpt-rpi-2712"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -m",
+      "match": true,
+      "escalation": false,
+      "honey_t": 70.2,
+      "truth_t": 135.8,
+      "honey_out": "aarch64",
+      "truth_out": "aarch64"
+    },
+    {
+      "category": "easy",
+      "cmd": "uname -s",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 69.6,
+      "honey_out": "Linux",
+      "truth_out": "Linux"
+    },
+    {
+      "category": "easy",
+      "cmd": "hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 35.3,
+      "honey_out": "raspberrypi",
+      "truth_out": "raspberrypi"
+    },
+    {
+      "category": "easy",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.1,
+      "truth_t": 66.1,
+      "honey_out": "pi",
+      "truth_out": "pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "id",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 30.6,
+      "honey_out": "uid=1000(pi) gid=1000(pi) groups=1000(pi)",
+      "truth_out": "uid=1000(pi) gid=1000(pi) groups=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),102(netdev),986(gpio),988(i2c),989(spi),992(render),996(input)"
+    },
+    {
+      "category": "easy",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.1,
+      "truth_t": 31.1,
+      "honey_out": "/home/pi",
+      "truth_out": "/home/pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "uptime",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 67.9,
+      "honey_out": "18:12:31  up 4 min,  1 user,  load average: 0.00, 0.00, 0.00",
+      "truth_out": " 18:12:31 up 1 day,  2:00,  2 users,  load average: 0.00, 0.00, 0.00"
+    },
+    {
+      "category": "easy",
+      "cmd": "date",
+      "match": false,
+      "escalation": false,
+      "honey_t": 32.2,
+      "truth_t": 33.8,
+      "honey_out": "Thu Apr 23 22:12:31 UTC 2026",
+      "truth_out": "Thu 23 Apr 18:12:31 EDT 2026"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $SHELL",
+      "match": true,
+      "escalation": false,
+      "honey_t": 160.9,
+      "truth_t": 33.4,
+      "honey_out": "/bin/bash",
+      "truth_out": "/bin/bash"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $USER",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 33.7,
+      "honey_out": "pi",
+      "truth_out": "pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "echo $HOME",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.6,
+      "truth_t": 34.9,
+      "honey_out": "/home/pi",
+      "truth_out": "/home/pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/os-release",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 33.4,
+      "honey_out": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.4\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"",
+      "truth_out": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.4\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\""
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/hostname",
+      "match": true,
+      "escalation": false,
+      "honey_t": 31.9,
+      "truth_t": 70.1,
+      "honey_out": "raspberrypi",
+      "truth_out": "raspberrypi"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/debian_version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.2,
+      "truth_t": 32.7,
+      "honey_out": "13.4",
+      "truth_out": "13.4"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/issue",
+      "match": true,
+      "escalation": false,
+      "honey_t": 131.2,
+      "truth_t": 34.9,
+      "honey_out": "Debian GNU/Linux 13 \\n \\l",
+      "truth_out": "Debian GNU/Linux 13 \\n \\l"
+    },
+    {
+      "category": "easy",
+      "cmd": "cat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 31.0,
+      "honey_out": "root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/va",
+      "truth_out": "root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/va"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /",
+      "match": true,
+      "escalation": false,
+      "honey_t": 32.1,
+      "truth_t": 35.3,
+      "honey_out": "bin\nboot\ndev\netc\nhome\nlib\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nsrv\nsys\ntmp\nusr\nvar",
+      "truth_out": "bin  boot  dev  etc  home  lib  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /home",
+      "match": true,
+      "escalation": false,
+      "honey_t": 69.6,
+      "truth_t": 35.2,
+      "honey_out": "pi",
+      "truth_out": "pi"
+    },
+    {
+      "category": "easy",
+      "cmd": "ls /root",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.7,
+      "truth_t": 35.2,
+      "honey_out": "ls: cannot open directory '/root': Permission denied",
+      "truth_out": "ls: cannot open directory '/root': Permission denied"
+    },
+    {
+      "category": "easy",
+      "cmd": "df -h",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 35.3,
+      "honey_out": "Filesystem      Size  Used Avail Use% Mounted on\nudev            7.9G     0  7.9G   0% /dev\ntmpfs           1.6G   13M  1.6G   1% /run\n/dev/mmcblk0p2  117G  4.2G  108G   4% /\ntmpfs           7.9G     0  7.9G   0% /dev/shm\ntmpfs           5.0M   48K  5.0M   1% /run/lock\ntmpfs           1.6G  108K  1.",
+      "truth_out": "Filesystem      Size  Used Avail Use% Mounted on\nudev            7.9G     0  7.9G   0% /dev\ntmpfs           3.2G   13M  3.2G   1% /run\n/dev/mmcblk0p2  117G  4.2G  108G   4% /\ntmpfs           8.0G     0  8.0G   0% /dev/shm\ntmpfs           5.0M   48K  5.0M   1% /run/lock\ntmpfs           1.0M     0  1."
+    },
+    {
+      "category": "easy",
+      "cmd": "free -h",
+      "match": false,
+      "escalation": false,
+      "honey_t": 100.3,
+      "truth_t": 35.2,
+      "honey_out": "               total        used        free      shared  buff/cache   available\nMem:            15Gi       451Mi        14Gi        15Mi       496Mi        14Gi\nSwap:          511Mi          0B       511Mi",
+      "truth_out": "               total        used        free      shared  buff/cache   available\nMem:            15Gi       372Mi        14Gi        20Mi       1.1Gi        15Gi\nSwap:          2.0Gi          0B       2.0Gi"
+    },
+    {
+      "category": "easy",
+      "cmd": "lscpu",
+      "match": false,
+      "escalation": false,
+      "honey_t": 30.9,
+      "truth_t": 33.3,
+      "honey_out": "Architecture:                aarch64\n  CPU op-mode(s):            32-bit, 64-bit\n  Byte Order:                Little Endian\nCPU(s):                      4\n  On-line CPU(s) list:       0-3\nVendor ID:                   ARM\n  Model name:                Cortex-A76\n    Model:                   1\n    Thre",
+      "truth_out": "Architecture:                aarch64\n  CPU op-mode(s):            32-bit, 64-bit\n  Byte Order:                Little Endian\nCPU(s):                      4\n  On-line CPU(s) list:       0-3\nVendor ID:                   ARM\n  Model name:                Cortex-A76\n    Model:                   1\n    Thre"
+    },
+    {
+      "category": "easy",
+      "cmd": "lsb_release -a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.6,
+      "truth_t": 66.0,
+      "honey_out": "No LSB modules are available.\nDistributor ID:\tDebian\nDescription:\tDebian GNU/Linux 13 (trixie)\nRelease:\t13\nCodename:\ttrixie",
+      "truth_out": "No LSB modules are available.\nDistributor ID:\tDebian\nDescription:\tDebian GNU/Linux 13 (trixie)\nRelease:\t13\nCodename:\ttrixie"
+    },
+    {
+      "category": "easy",
+      "cmd": "which python3",
+      "match": true,
+      "escalation": false,
+      "honey_t": 65.3,
+      "truth_t": 31.3,
+      "honey_out": "/usr/bin/python3",
+      "truth_out": "/usr/bin/python3"
+    },
+    {
+      "category": "easy",
+      "cmd": "which bash",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.0,
+      "truth_t": 68.1,
+      "honey_out": "/usr/bin/bash",
+      "truth_out": "/usr/bin/bash"
+    },
+    {
+      "category": "easy",
+      "cmd": "env",
+      "match": false,
+      "escalation": false,
+      "honey_t": 33.3,
+      "truth_t": 31.6,
+      "honey_out": "SHELL=/bin/bash\nPWD=/home/pi\nLOGNAME=pi\nXDG_SESSION_TYPE=tty\n_=/usr/bin/env\nMOTD_SHOWN=pam\nHOME=/home/pi\nLANG=en_GB.UTF-8\nSSH_CONNECTION=10.4.27.71 64439 10.4.27.36 22\nXDG_SESSION_CLASS=user\nUSER=pi\nSHLVL=2\nXDG_SESSION_ID=48\nXDG_RUNTIME_DIR=/run/user/1000\nSSH_CLIENT=10.4.27.71 64439 22\nPATH=/usr/loc",
+      "truth_out": "SHELL=/bin/bash\nNO_AT_BRIDGE=1\nPWD=/home/pi\nLOGNAME=pi\nXDG_SESSION_TYPE=tty\nMOTD_SHOWN=pam\nHOME=/home/pi\nLANG=en_GB.UTF-8\nLS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps aux",
+      "match": false,
+      "escalation": false,
+      "honey_t": 98.6,
+      "truth_t": 30.9,
+      "honey_out": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  0.0  0.0  25472 15088 ?        Ss   Apr22   0:05 /sbin/init\nroot           2  0.0  0.0      0     0 ?        S    Apr22   0:00 [kthreadd]\nroot           3  0.0  0.0      0     0 ?        S    Apr22   0:00 [p",
+      "truth_out": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  0.0  0.0  25472 15168 ?        Ss   Apr22   0:05 /sbin/init\nroot           2  0.0  0.0      0     0 ?        S    Apr22   0:00 [kthreadd]\nroot           3  0.0  0.0      0     0 ?        S    Apr22   0:00 [p"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ps -ef",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 67.0,
+      "honey_out": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 Apr22 ?        00:00:05 /sbin/init\nroot           2       0  0 Apr22 ?        00:00:00 [kthreadd]\nroot           3       2  0 Apr22 ?        00:00:00 [pool_workqueue_release]\nroot           4       2  0 Apr22 ?      ",
+      "truth_out": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 Apr22 ?        00:00:05 /sbin/init\nroot           2       0  0 Apr22 ?        00:00:00 [kthreadd]\nroot           3       2  0 Apr22 ?        00:00:00 [pool_workqueue_release]\nroot           4       2  0 Apr22 ?      "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ss -tlnp",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.1,
+      "truth_t": 35.3,
+      "honey_out": "State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\nLISTEN 0      128          0.0.0.0:22        0.0.0.0:*\nLISTEN 0      128             [::]:22           [::]:*",
+      "truth_out": "State                   Recv-Q                  Send-Q                                   Local Address:Port                                   Peer Address:Port                 Process\nLISTEN                  0                       128                                            0.0.0.0:22           "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "netstat -an",
+      "match": false,
+      "escalation": false,
+      "honey_t": 70.3,
+      "truth_t": 34.4,
+      "honey_out": "Active Internet connections (servers and established)\nProto Recv-Q Send-Q Local Address           Foreign Address         State\ntcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN\ntcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN\ntcp6       0      0 ::",
+      "truth_out": "Active Internet connections (servers and established)\nProto Recv-Q Send-Q Local Address           Foreign Address         State\ntcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN\ntcp        0    320 10.4.27.36:22           10.4.27.71:49167        ESTABLISHED\ntcp6       0     "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/cpuinfo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.7,
+      "truth_t": 35.2,
+      "honey_out": "processor\t: 0\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x4\nCPU part\t: 0xd0b\nCPU revision\t: 1\nprocessor\t: 1\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm aes",
+      "truth_out": "processor\t: 0\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x4\nCPU part\t: 0xd0b\nCPU revision\t: 1\nprocessor\t: 1\nBogoMIPS\t: 108.00\nFeatures\t: fp asimd evtstrm aes"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/meminfo",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 35.4,
+      "honey_out": "MemTotal:       16608192 kB\nMemFree:        15247952 kB\nMemAvailable:   16198128 kB\nBuffers:          402176 kB\nCached:           574480 kB\nSwapCached:            0 kB\nActive:           255040 kB\nInactive:         782752 kB\nActive(anon):      74560 kB\nInactive(anon):        0 kB\nActive(file):     18",
+      "truth_out": "MemTotal:       16608192 kB\nMemFree:        15228736 kB\nMemAvailable:   16232048 kB\nBuffers:          424624 kB\nCached:           585184 kB\nSwapCached:            0 kB\nActive:           253168 kB\nInactive:         807184 kB\nActive(anon):      71440 kB\nInactive(anon):        0 kB\nActive(file):     18"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /proc/version",
+      "match": true,
+      "escalation": false,
+      "honey_t": 65.9,
+      "truth_t": 34.7,
+      "honey_out": "Linux version 6.12.75+rpt-rpi-2712 (serge@raspberrypi.com) (aarch64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11)",
+      "truth_out": "Linux version 6.12.75+rpt-rpi-2712 (serge@raspberrypi.com) (aarch64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11)"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /etc/group",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.6,
+      "truth_t": 68.6,
+      "honey_out": "root:x:0:\ndaemon:x:1:\nbin:x:2:\nsys:x:3:\nadm:x:4:pi\ntty:x:5:\ndisk:x:6:\nlp:x:7:\nmail:x:8:\nnews:x:9:\nuucp:x:10:\nman:x:12:\nproxy:x:13:\nkmem:x:15:\ndialout:x:20:pi\nfax:x:21:\nvoice:x:22:\ncdrom:x:24:pi\nfloppy:x:25:\ntape:x:26:\nsudo:x:27:pi\naudio:x:29:pi\ndip:x:30:\nwww-data:x:33:\nbackup:x:34:\noperator:x:37:\nli",
+      "truth_out": "root:x:0:\ndaemon:x:1:\nbin:x:2:\nsys:x:3:\nadm:x:4:pi\ntty:x:5:\ndisk:x:6:\nlp:x:7:\nmail:x:8:\nnews:x:9:\nuucp:x:10:\nman:x:12:\nproxy:x:13:\nkmem:x:15:\ndialout:x:20:pi\nfax:x:21:\nvoice:x:22:\ncdrom:x:24:pi\nfloppy:x:25:\ntape:x:26:\nsudo:x:27:pi\naudio:x:29:pi\ndip:x:30:\nwww-data:x:33:\nbackup:x:34:\noperator:x:37:\nli"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls -la /etc/ssh/",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 35.1,
+      "honey_out": "total 632\ndrwxr-xr-x  4 root root   4096 Apr 12 20:13 .\ndrwxr-xr-x 95 root root   4096 Apr 23 13:16 ..\n-rw-r--r--  1 root root 592383 Apr  4 19:29 moduli\n-rw-r--r--  1 root root   1668 Apr  4 19:29 ssh_config\ndrwxr-xr-x  2 root root   4096 Apr 12 20:04 ssh_config.d\n-rw-r--r--  1 root root   3424 Apr",
+      "truth_out": "total 632\ndrwxr-xr-x  4 root root   4096 Apr 12 20:13 .\ndrwxr-xr-x 95 root root   4096 Apr 23 13:16 ..\n-rw-r--r--  1 root root 592383 Apr  4 19:29 moduli\n-rw-r--r--  1 root root   1668 Apr  4 19:29 ssh_config\ndrwxr-xr-x  2 root root   4096 Apr 12 20:04 ssh_config.d\n-rw-r--r--  1 root root   3424 Apr"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ls /boot/firmware/",
+      "match": false,
+      "escalation": false,
+      "honey_t": 98.8,
+      "truth_t": 33.6,
+      "honey_out": "bcm2710-rpi-2-b.dtb\nbcm2710-rpi-3-b.dtb\nbcm2710-rpi-3-b-plus.dtb\nbcm2710-rpi-cm0.dtb\nbcm2710-rpi-cm3.dtb\nbcm2710-rpi-zero-2.dtb\nbcm2710-rpi-zero-2-w.dtb\nbcm2711-rpi-400.dtb\nbcm2711-rpi-4-b.dtb\nbcm2711-rpi-cm4.dtb\nbcm2711-rpi-cm4-io.dtb\nbcm2711-rpi-cm4s.dtb\nbcm2712d0-rpi-5-b.dtb\nbcm2712-d-rpi-5-b.dtb",
+      "truth_out": "bcm2710-rpi-2-b.dtb       bcm2710-rpi-zero-2.dtb    bcm2711-rpi-cm4-io.dtb  bcm2712-rpi-5-b.dtb         bootcode.bin  fixup4db.dat  fixup_x.dat      kernel8.img       start4cd.elf  start_db.elf\nbcm2710-rpi-3-b.dtb       bcm2710-rpi-zero-2-w.dtb  bcm2711-rpi-cm4s.dtb    bcm2712-rpi-cm5-cm4io.dtb   cm"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /boot/firmware/config.txt",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 68.3,
+      "honey_out": "# For more options and information see\n# http://rptl.io/configtxt\n# Some settings may impact device functionality. See link above for details\n# Uncomment some or all of these to enable the optional hardware interfaces\n#dtparam=i2c_arm=on\n#dtparam=i2s=on\n#dtparam=spi=on\n# Enable audio (loads snd_bcm2",
+      "truth_out": "# For more options and information see\n# http://rptl.io/configtxt\n# Some settings may impact device functionality. See link above for details\n# Uncomment some or all of these to enable the optional hardware interfaces\n#dtparam=i2c_arm=on\n#dtparam=i2s=on\n#dtparam=spi=on\n# Enable audio (loads snd_bcm2"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip a",
+      "match": false,
+      "escalation": false,
+      "honey_t": 31.2,
+      "truth_t": 33.3,
+      "honey_out": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n    inet6 ::1/128 scope host noprefixroute\n       valid_lft forever ",
+      "truth_out": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n    inet6 ::1/128 scope host noprefixroute\n       valid_lft forever "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "ip route",
+      "match": true,
+      "escalation": false,
+      "honey_t": 68.7,
+      "truth_t": 35.3,
+      "honey_out": "default via 10.4.27.1 dev wlan0 proto dhcp src 10.4.27.36 metric 600\n10.4.27.0/24 dev wlan0 proto kernel scope link src 10.4.27.36 metric 600",
+      "truth_out": "default via 10.4.27.1 dev wlan0 proto dhcp src 10.4.27.36 metric 600\n10.4.27.0/24 dev wlan0 proto kernel scope link src 10.4.27.36 metric 600"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "iptables -L",
+      "match": false,
+      "escalation": false,
+      "honey_t": 31.4,
+      "truth_t": 67.5,
+      "honey_out": "bash: line 1: iptables: command not found",
+      "truth_out": "-bash: iptables: command not found"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "crontab -l",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.9,
+      "truth_t": 34.0,
+      "honey_out": "no crontab for pi",
+      "truth_out": "no crontab for pi"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "hostnamectl",
+      "match": false,
+      "escalation": false,
+      "honey_t": 66.5,
+      "truth_t": 136.0,
+      "honey_out": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181\nOperating System: Debian GNU/Linux 13 (trixie)\n          Kernel: Linux 6.12.75+rpt-rpi-2712\n    Architecture: arm64",
+      "truth_out": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "timedatectl",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.7,
+      "truth_t": 140.3,
+      "honey_out": "               Local time: Thu 2026-04-23 14:18:31 EDT\n           Universal time: Thu 2026-04-23 18:18:31 UTC\n                 RTC time: Thu 2026-04-23 18:18:31\n                Time zone: America/New_York (EDT, -0400)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in ",
+      "truth_out": "               Local time: Thu 2026-04-23 18:12:44 EDT\n           Universal time: Thu 2026-04-23 22:12:44 UTC\n                 RTC time: Thu 2026-04-23 22:12:44\n                Time zone: America/New_York (EDT, -0400)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in "
+    },
+    {
+      "category": "intermediate",
+      "cmd": "systemctl list-units --type=service --state=running",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 66.3,
+      "honey_out": "  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION\n  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack\n  bluetooth.service             loaded active running Bluetooth service\n  cron.service                  loaded active running Regular background program pro",
+      "truth_out": "\u001b=  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION\n  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack\n  bluetooth.service             loaded active running Bluetooth service\n  cron.service                  loaded active running Regular background program p"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/syslog",
+      "match": true,
+      "escalation": false,
+      "honey_t": 33.3,
+      "truth_t": 35.1,
+      "honey_out": "tail: cannot open '/var/log/syslog' for reading: No such file or directory",
+      "truth_out": "tail: cannot open '/var/log/syslog' for reading: No such file or directory"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "tail /var/log/auth.log",
+      "match": true,
+      "escalation": false,
+      "honey_t": 66.5,
+      "truth_t": 35.3,
+      "honey_out": "tail: cannot open '/var/log/auth.log' for reading: No such file or directory",
+      "truth_out": "tail: cannot open '/var/log/auth.log' for reading: No such file or directory"
+    },
+    {
+      "category": "intermediate",
+      "cmd": "cat /home/pi/.bash_history",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 64.6,
+      "honey_out": "sudo apt update\nsudo apt upgrade -y\nlogout\nls\nls -a\nrm ./Emirge/\nrm -rf ./Emirge/\nls\ngit clone https://github.com/RohanDS2024/Emirge/tree/main/scalpel-kit-apigw%203\nuname -a; echo ___DONE_1776973114746___\nuname -r; echo ___DONE_1776973114854___\nuname -m; echo ___DONE_1776973114962___\nuname -s; echo ",
+      "truth_out": "uptime\ndate\necho $SHELL\necho $USER\necho $HOME\ncat /etc/os-release\ncat /etc/hostname\ncat /etc/debian_version\ncat /etc/issue\ncat /etc/passwd\nls /\nls /home\nls /root\ndf -h\nfree -h\nlscpu\nlsb_release -a\nwhich python3\nwhich bash\nenv\nps aux\nps -ef\nss -tlnp\nnetstat -an\ncat /proc/cpuinfo\ncat /proc/meminfo\ncat"
+    },
+    {
+      "category": "complex",
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "match": false,
+      "escalation": true,
+      "honey_t": 4104.9,
+      "truth_t": 33.8,
+      "honey_out": "head: invalid option -- '2'",
+      "truth_out": "/var/lib/ucf/cache/:etc:apt:listchanges.conf\n/var/lib/raspberrypi/bootloader/backup/pieeprom-backup-20260413-011341.conf\n/run/tmpfiles.d/static-nodes.conf\n/run/sysctl.d/70-rpi-swap.conf\n/run/NetworkManager/resolv.conf\n/run/NetworkManager/no-stub-resolv.conf\n/run/NetworkManager/conf.d/10-globally-man"
+    },
+    {
+      "category": "complex",
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 565.4,
+      "honey_out": "head: invalid option -- '3'",
+      "truth_out": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nalsa-ucm-conf/stable,stable,now 1.2.14-1 all [installed,automatic]\nalsa-utils/stable,now 1.2.14-1+rpt1 "
+    },
+    {
+      "category": "complex",
+      "cmd": "dpkg -l | head -20",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 35.2,
+      "honey_out": "head: invalid option -- '2'",
+      "truth_out": "Desired=Unknown/Install/Remove/Purge/Hold\n| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend\n|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)\n||/ Name                                 Version                              Architecture Description\n+++-============="
+    },
+    {
+      "category": "complex",
+      "cmd": "journalctl -n 50 --no-pager",
+      "match": false,
+      "escalation": false,
+      "honey_t": 67.4,
+      "truth_t": 32.1,
+      "honey_out": "Apr 23 16:14:37 raspberrypi sshd-session[9234]: pam_unix(sshd:session): session opened for user pi(uid=1000) by pi(uid=0)\nApr 23 16:14:37 raspberrypi systemd-logind[636]: New session 61 of user pi.\nApr 23 16:14:38 raspberrypi systemd[1]: Started session-61.scope - Session 61 of User pi.\nApr 23 16:14",
+      "truth_out": "Apr 23 17:31:29 raspberrypi dbus-daemon[632]: [system] Successfully activated service 'org.freedesktop.timedate1'\nApr 23 17:31:39 raspberrypi sshd-session[12708]: Connection closed by 10.4.27.71 port 65392\nApr 23 17:31:39 raspberrypi sshd-session[12699]: syslogin_perform_logout: logout() returned an"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/comm",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 67.1,
+      "honey_out": "systemd",
+      "truth_out": "systemd"
+    },
+    {
+      "category": "complex",
+      "cmd": "cat /proc/1/cmdline",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 33.7,
+      "honey_out": "/sbin/init\u0000",
+      "truth_out": ""
+    },
+    {
+      "category": "complex",
+      "cmd": "stat /etc/passwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 67.9,
+      "truth_t": 35.1,
+      "honey_out": "  File: /etc/passwd\n  Size: 1399      \tBlocks: 8          IO Block: 4096   regular file\nDevice: 179,2\tInode: 32955       Links: 1\nAccess: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)\nAccess: 2026-04-23 13:14:17.486948948 -0400\nModify: 2026-04-23 13:14:17.486948948 -0400\nChange: 2",
+      "truth_out": "  File: /etc/passwd\n  Size: 1399      \tBlocks: 8          IO Block: 4096   regular file\nDevice: 179,2\tInode: 32955       Links: 1\nAccess: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)\nAccess: 2026-04-23 13:14:17.486948948 -0400\nModify: 2026-04-23 13:14:17.486948948 -0400\nChange: 2"
+    },
+    {
+      "category": "complex",
+      "cmd": "readlink /proc/self/exe",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.5,
+      "truth_t": 67.4,
+      "honey_out": "/usr/bin/readlink",
+      "truth_out": "/usr/bin/readlink"
+    },
+    {
+      "category": "complex",
+      "cmd": "lsmod | head",
+      "match": false,
+      "escalation": false,
+      "honey_t": 32.5,
+      "truth_t": 32.0,
+      "honey_out": "",
+      "truth_out": "Module                  Size  Used by\ntcp_diag               49152  0\ninet_diag              49152  1 tcp_diag\njoydev                 49152  0\nrfcomm                 81920  2\nalgif_hash             49152  1\nalgif_skcipher         49152  1\naf_alg                 49152  6 algif_hash,algif_skcipher\nbne"
+    },
+    {
+      "category": "complex",
+      "cmd": "dmesg | head -5",
+      "match": false,
+      "escalation": false,
+      "honey_t": 97.4,
+      "truth_t": 32.9,
+      "honey_out": "head: invalid option -- '5'",
+      "truth_out": "[    2.418452] hub 2-0:1.0: USB hub found\n[    2.423767]  mmcblk0: p1 p2\n[    2.426437] hub 2-0:1.0: 1 port detected\n[    2.429282] mmcblk0: mmc0:59b4 ED2S5 119 GiB\n[    2.433423] xhci-hcd xhci-hcd.1: xHCI Host Controller"
+    },
+    {
+      "category": "complex",
+      "cmd": "echo $((1+1))",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.2,
+      "truth_t": 68.2,
+      "honey_out": ")",
+      "truth_out": "2"
+    },
+    {
+      "category": "complex",
+      "cmd": "type cd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 31.8,
+      "truth_t": 35.3,
+      "honey_out": "cd is a shell builtin",
+      "truth_out": "cd is a shell builtin"
+    },
+    {
+      "category": "complex",
+      "cmd": "type ls",
+      "match": false,
+      "escalation": false,
+      "honey_t": 67.7,
+      "truth_t": 33.3,
+      "honey_out": "ls is /usr/bin/ls",
+      "truth_out": "ls is aliased to `ls --color=auto'"
+    },
+    {
+      "category": "complex",
+      "cmd": "command -v sudo",
+      "match": true,
+      "escalation": false,
+      "honey_t": 70.3,
+      "truth_t": 33.9,
+      "honey_out": "/usr/bin/sudo",
+      "truth_out": "/usr/bin/sudo"
+    },
+    {
+      "category": "complex",
+      "cmd": "alias",
+      "match": false,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 35.2,
+      "honey_out": "",
+      "truth_out": "alias egrep='egrep --color=auto'\nalias fgrep='fgrep --color=auto'\nalias grep='grep --color=auto'\nalias ls='ls --color=auto'"
+    },
+    {
+      "category": "complex",
+      "cmd": "bash --version",
+      "match": false,
+      "escalation": false,
+      "honey_t": 69.4,
+      "truth_t": 35.2,
+      "honey_out": "",
+      "truth_out": "GNU bash, version 5.2.37(1)-release (aarch64-unknown-linux-gnu)\nCopyright (C) 2022 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software; you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permi"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo a",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.3,
+      "truth_t": 63.0,
+      "honey_out": "a",
+      "truth_out": "a"
+    },
+    {
+      "category": "latency",
+      "cmd": "true",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 30.7,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": ":",
+      "match": true,
+      "escalation": false,
+      "honey_t": 62.4,
+      "truth_t": 31.1,
+      "honey_out": "",
+      "truth_out": ""
+    },
+    {
+      "category": "latency",
+      "cmd": "pwd",
+      "match": true,
+      "escalation": false,
+      "honey_t": 34.8,
+      "truth_t": 102.0,
+      "honey_out": "/home/pi",
+      "truth_out": "/home/pi"
+    },
+    {
+      "category": "latency",
+      "cmd": "whoami",
+      "match": true,
+      "escalation": false,
+      "honey_t": 35.3,
+      "truth_t": 35.3,
+      "honey_out": "pi",
+      "truth_out": "pi"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo $$",
+      "match": false,
+      "escalation": false,
+      "honey_t": 61.5,
+      "truth_t": 35.2,
+      "honey_out": "$$",
+      "truth_out": "12979"
+    },
+    {
+      "category": "latency",
+      "cmd": "echo done",
+      "match": true,
+      "escalation": false,
+      "honey_t": 30.4,
+      "truth_t": 66.8,
+      "honey_out": "done",
+      "truth_out": "done"
+    }
+  ],
+  "findings": [
+    {
+      "cmd": "id",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "uid=1000(pi) gid=1000(pi) groups=1000(pi)",
+      "truth": "uid=1000(pi) gid=1000(pi) groups=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),102(netdev),986(gpio),988(i2c),989(spi),992(render),996(input)"
+    },
+    {
+      "cmd": "uptime",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "18:12:31  up 4 min,  1 user,  load average: 0.00, 0.00, 0.00",
+      "truth": " 18:12:31 up 1 day,  2:00,  2 users,  load average: 0.00, 0.00, 0.00"
+    },
+    {
+      "cmd": "date",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "Thu Apr 23 22:12:31 UTC 2026",
+      "truth": "Thu 23 Apr 18:12:31 EDT 2026"
+    },
+    {
+      "cmd": "df -h",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "Filesystem      Size  Used Avail Use% Mounted on\nudev            7.9G     0  7.9G   0% /dev\ntmpfs           1.6G   13M  1.6G   1% /run\n/dev/mmcblk0p2  117G  4.2G  108G   4% /\ntmpfs           7.9G     ",
+      "truth": "Filesystem      Size  Used Avail Use% Mounted on\nudev            7.9G     0  7.9G   0% /dev\ntmpfs           3.2G   13M  3.2G   1% /run\n/dev/mmcblk0p2  117G  4.2G  108G   4% /\ntmpfs           8.0G     "
+    },
+    {
+      "cmd": "free -h",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "               total        used        free      shared  buff/cache   available\nMem:            15Gi       451Mi        14Gi        15Mi       496Mi        14Gi\nSwap:          511Mi          0B      ",
+      "truth": "               total        used        free      shared  buff/cache   available\nMem:            15Gi       372Mi        14Gi        20Mi       1.1Gi        15Gi\nSwap:          2.0Gi          0B      "
+    },
+    {
+      "cmd": "lscpu",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "Architecture:                aarch64\n  CPU op-mode(s):            32-bit, 64-bit\n  Byte Order:                Little Endian\nCPU(s):                      4\n  On-line CPU(s) list:       0-3\nVendor ID:  ",
+      "truth": "Architecture:                aarch64\n  CPU op-mode(s):            32-bit, 64-bit\n  Byte Order:                Little Endian\nCPU(s):                      4\n  On-line CPU(s) list:       0-3\nVendor ID:  "
+    },
+    {
+      "cmd": "env",
+      "kind": "wrong_output",
+      "category": "easy",
+      "honey": "SHELL=/bin/bash\nPWD=/home/pi\nLOGNAME=pi\nXDG_SESSION_TYPE=tty\n_=/usr/bin/env\nMOTD_SHOWN=pam\nHOME=/home/pi\nLANG=en_GB.UTF-8\nSSH_CONNECTION=10.4.27.71 64439 10.4.27.36 22\nXDG_SESSION_CLASS=user\nUSER=pi\nS",
+      "truth": "SHELL=/bin/bash\nNO_AT_BRIDGE=1\nPWD=/home/pi\nLOGNAME=pi\nXDG_SESSION_TYPE=tty\nMOTD_SHOWN=pam\nHOME=/home/pi\nLANG=en_GB.UTF-8\nLS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:"
+    },
+    {
+      "cmd": "ps aux",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  0.0  0.0  25472 15088 ?        Ss   Apr22   0:05 /sbin/init\nroot           2  0.0  0.0      0     0 ?      ",
+      "truth": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  0.0  0.0  25472 15168 ?        Ss   Apr22   0:05 /sbin/init\nroot           2  0.0  0.0      0     0 ?      "
+    },
+    {
+      "cmd": "ps -ef",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 Apr22 ?        00:00:05 /sbin/init\nroot           2       0  0 Apr22 ?        00:00:00 [kthreadd]\nroot           3  ",
+      "truth": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 Apr22 ?        00:00:05 /sbin/init\nroot           2       0  0 Apr22 ?        00:00:00 [kthreadd]\nroot           3  "
+    },
+    {
+      "cmd": "ss -tlnp",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\nLISTEN 0      128          0.0.0.0:22        0.0.0.0:*\nLISTEN 0      128             [::]:22           [::]:*",
+      "truth": "State                   Recv-Q                  Send-Q                                   Local Address:Port                                   Peer Address:Port                 Process\nLISTEN          "
+    },
+    {
+      "cmd": "netstat -an",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "Active Internet connections (servers and established)\nProto Recv-Q Send-Q Local Address           Foreign Address         State\ntcp        0      0 0.0.0.0:22              0.0.0.0:*               LIST",
+      "truth": "Active Internet connections (servers and established)\nProto Recv-Q Send-Q Local Address           Foreign Address         State\ntcp        0      0 0.0.0.0:22              0.0.0.0:*               LIST"
+    },
+    {
+      "cmd": "cat /proc/meminfo",
+      "kind": "filesystem_mismatch",
+      "category": "intermediate",
+      "honey": "MemTotal:       16608192 kB\nMemFree:        15247952 kB\nMemAvailable:   16198128 kB\nBuffers:          402176 kB\nCached:           574480 kB\nSwapCached:            0 kB\nActive:           255040 kB\nInac",
+      "truth": "MemTotal:       16608192 kB\nMemFree:        15228736 kB\nMemAvailable:   16232048 kB\nBuffers:          424624 kB\nCached:           585184 kB\nSwapCached:            0 kB\nActive:           253168 kB\nInac"
+    },
+    {
+      "cmd": "ls /boot/firmware/",
+      "kind": "filesystem_mismatch",
+      "category": "intermediate",
+      "honey": "bcm2710-rpi-2-b.dtb\nbcm2710-rpi-3-b.dtb\nbcm2710-rpi-3-b-plus.dtb\nbcm2710-rpi-cm0.dtb\nbcm2710-rpi-cm3.dtb\nbcm2710-rpi-zero-2.dtb\nbcm2710-rpi-zero-2-w.dtb\nbcm2711-rpi-400.dtb\nbcm2711-rpi-4-b.dtb\nbcm2711",
+      "truth": "bcm2710-rpi-2-b.dtb       bcm2710-rpi-zero-2.dtb    bcm2711-rpi-cm4-io.dtb  bcm2712-rpi-5-b.dtb         bootcode.bin  fixup4db.dat  fixup_x.dat      kernel8.img       start4cd.elf  start_db.elf\nbcm271"
+    },
+    {
+      "cmd": "ip a",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lf",
+      "truth": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\n    inet 127.0.0.1/8 scope host lo\n       valid_lf"
+    },
+    {
+      "cmd": "iptables -L",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "bash: line 1: iptables: command not found",
+      "truth": "-bash: iptables: command not found"
+    },
+    {
+      "cmd": "hostnamectl",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181\nOperating System: Debian GNU/Linux 13 (tr",
+      "truth": " Static hostname: raspberrypi\n       Icon name: computer\n      Machine ID: 5112cbea884f4a58ba937c4d05f23388\n         Boot ID: a96b96ca40784c1cb32c06f21a8a4181"
+    },
+    {
+      "cmd": "systemctl list-units --type=service --state=running",
+      "kind": "wrong_output",
+      "category": "intermediate",
+      "honey": "  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION\n  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack\n  bluetooth.service             loaded active running Bl",
+      "truth": "\u001b=  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION\n  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack\n  bluetooth.service             loaded active running "
+    },
+    {
+      "cmd": "cat /home/pi/.bash_history",
+      "kind": "filesystem_mismatch",
+      "category": "intermediate",
+      "honey": "sudo apt update\nsudo apt upgrade -y\nlogout\nls\nls -a\nrm ./Emirge/\nrm -rf ./Emirge/\nls\ngit clone https://github.com/RohanDS2024/Emirge/tree/main/scalpel-kit-apigw%203\nuname -a; echo ___DONE_177697311474",
+      "truth": "uptime\ndate\necho $SHELL\necho $USER\necho $HOME\ncat /etc/os-release\ncat /etc/hostname\ncat /etc/debian_version\ncat /etc/issue\ncat /etc/passwd\nls /\nls /home\nls /root\ndf -h\nfree -h\nlscpu\nlsb_release -a\nwhi"
+    },
+    {
+      "cmd": "find / -name '*.conf' 2>/dev/null | head -20",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "head: invalid option -- '2'",
+      "truth": "/var/lib/ucf/cache/:etc:apt:listchanges.conf\n/var/lib/raspberrypi/bootloader/backup/pieeprom-backup-20260413-011341.conf\n/run/tmpfiles.d/static-nodes.conf\n/run/sysctl.d/70-rpi-swap.conf\n/run/NetworkMa"
+    },
+    {
+      "cmd": "apt list --installed 2>/dev/null | head -30",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "head: invalid option -- '3'",
+      "truth": "Listing...\n7zip/stable,now 25.01+dfsg-1~deb13u1 arm64 [installed,automatic]\nadduser/stable,stable,now 3.152 all [installed]\nalsa-topology-conf/stable,stable,now 1.2.5.1-3 all [installed,automatic]\nals"
+    },
+    {
+      "cmd": "dpkg -l | head -20",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "head: invalid option -- '2'",
+      "truth": "Desired=Unknown/Install/Remove/Purge/Hold\n| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend\n|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)\n||/ Name            "
+    },
+    {
+      "cmd": "journalctl -n 50 --no-pager",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "Apr 23 16:14:37 raspberrypi sshd-session[9234]: pam_unix(sshd:session): session opened for user pi(uid=1000) by pi(uid=0)\nApr 23 16:14:37 raspberrypi systemd-logind[636]: New session 61 of user pi.\nAp",
+      "truth": "Apr 23 17:31:29 raspberrypi dbus-daemon[632]: [system] Successfully activated service 'org.freedesktop.timedate1'\nApr 23 17:31:39 raspberrypi sshd-session[12708]: Connection closed by 10.4.27.71 port "
+    },
+    {
+      "cmd": "cat /proc/1/cmdline",
+      "kind": "filesystem_mismatch",
+      "category": "complex",
+      "honey": "/sbin/init\u0000",
+      "truth": ""
+    },
+    {
+      "cmd": "lsmod | head",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "",
+      "truth": "Module                  Size  Used by\ntcp_diag               49152  0\ninet_diag              49152  1 tcp_diag\njoydev                 49152  0\nrfcomm                 81920  2\nalgif_hash             49"
+    },
+    {
+      "cmd": "dmesg | head -5",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "head: invalid option -- '5'",
+      "truth": "[    2.418452] hub 2-0:1.0: USB hub found\n[    2.423767]  mmcblk0: p1 p2\n[    2.426437] hub 2-0:1.0: 1 port detected\n[    2.429282] mmcblk0: mmc0:59b4 ED2S5 119 GiB\n[    2.433423] xhci-hcd xhci-hcd.1:"
+    },
+    {
+      "cmd": "echo $((1+1))",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": ")",
+      "truth": "2"
+    },
+    {
+      "cmd": "type ls",
+      "kind": "wrong_output",
+      "category": "complex",
+      "honey": "ls is /usr/bin/ls",
+      "truth": "ls is aliased to `ls --color=auto'"
+    },
+    {
+      "cmd": "alias",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "",
+      "truth": "alias egrep='egrep --color=auto'\nalias fgrep='fgrep --color=auto'\nalias grep='grep --color=auto'\nalias ls='ls --color=auto'"
+    },
+    {
+      "cmd": "bash --version",
+      "kind": "no_response",
+      "category": "complex",
+      "honey": "",
+      "truth": "GNU bash, version 5.2.37(1)-release (aarch64-unknown-linux-gnu)\nCopyright (C) 2022 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is "
+    },
+    {
+      "cmd": "echo $$",
+      "kind": "wrong_output",
+      "category": "latency",
+      "honey": "$$",
+      "truth": "12979"
+    }
+  ]
+}
